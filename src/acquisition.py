@@ -646,6 +646,12 @@ def paper(F, H, val, syn, deal, cash, hv):
     hd = "\n".join(f"- **{f}.** {what}." for f, src, what, _, a in H["findings"])
     cash_rows = "\n".join(f"| {scn} | {m(low[(scn, 'renewed')])} | {m(low[(scn, 'lost')])} |" for scn in fc.SCN)
     syn_rows = "\n".join(f"| {name} | {k(v)} |" for name, v in syn["run"].items())
+    gap = low[tight] - POLICY["min_cash"]
+    headroom = (f"Cash stays above the minimum in every case, but in the **{tight[0].lower()} case with the earn-out paid, headroom is only "
+                f"{k(gap)}**. Before signing, we should either agree to pay the earn-out in two halves (February and August 2027) "
+                "or put a £1m revolving credit facility in place." if gap < 1_000_000 else
+                f"Cash stays at least {m(gap)} above the minimum in every case, including the {tight[0].lower()} case with the earn-out paid. "
+                "The deal doesn't need extra facilities, but we should keep the loan's covenants loose enough to allow a second acquisition.")
     bridge = "\n".join(f"| {label} | {v / 1e6:+.2f} |" if label.startswith(("Less", "Plus")) else f"| **{label}** | **{v / 1e6:.2f}** |"
                        for label, v in deal["bridge"][:6])
     return f"""# Board paper: first acquisition
@@ -723,7 +729,7 @@ One-off costs of {k(sum(syn['one_off'].values()))} in year one (warehouse move, 
 |---|---:|---:|
 {cash_rows}
 
-Cash stays above the minimum in every case, but in the **{tight[0].lower()} case with the earn-out paid, headroom is only {k(low[tight] - POLICY['min_cash'])}**. Before signing, we should either agree to pay the earn-out in two halves (February and August 2027) or put a £1m revolving credit facility in place.
+{headroom}
 
 ## Risks
 

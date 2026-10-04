@@ -3,9 +3,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 2,ParcelCo Limited,PC-003643,03/03/2023,2023-02,6000,Website,64417.48,2023-02-16,2023-02-28,"Parcel delivery, website account"
 3,ParcelCo,PC-003644,2023-02-18,2023-02,6000,Marketplace,44907.63,2023-02-01,2023-02-15,"Parcel delivery, marketplace account"
 4,PARCELCO LTD,PC-003645,2023-03-03,2023-02,6000,Marketplace,39275.65,2023-02-16,2023-02-28,"Parcel delivery, marketplace account"
-5,SEARCHLY ADS LTD,SRCH-07493,2023-02-28,2023-02,6200,Website,92351.62,2023-02-01,2023-02-28,Advertising
-6,Socialreach Media Limited,SRM04327,2023-02-28,2023-02,6200,Website,46175.81,2023-02-01,2023-02-28,Advertising
-7,Linkpartner Affiliates Ltd ,LPA-06126,2023-02-28,2023-02,6200,Website,15391.93,2023-02-01,2023-02-28,Advertising
+5,SEARCHLY ADS LTD,SRCH-07493,2023-02-28,2023-02,6200,Website,62799.10,2023-02-01,2023-02-28,Advertising
+6,Socialreach Media Limited,SRM04327,2023-02-28,2023-02,6200,Website,31399.55,2023-02-01,2023-02-28,Advertising
+7,Linkpartner Affiliates Ltd ,LPA-06126,2023-02-28,2023-02,6200,Website,10466.52,2023-02-01,2023-02-28,Advertising
 8,Midshire Logistics Park Limited,MLP8409,2023-02-01,2023-02,7100,Central,115759.20,2023-02-01,2023-02-01,Monthly charge
 9,Cloudstack Software Limited,CS-07602,2023-02-01,2023-02,7110,Central,63667.56,2023-02-01,2023-02-01,Monthly charge
 10,Kestrel Grid Energy Ltd,KGE002504,2023-02-01,2023-02,7120,Central,34727.76,2023-02-01,2023-02-01,Monthly charge
@@ -40,9 +40,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 39,ParcelCo Ltd ,PC-003647,2023-04-03,2023-03,6000,Website,"£84,445.99",2023-03-16,2023-03-31,"Parcel delivery, website account"
 40,ParcelCo Limited,PC-003648,18/03/2023,2023-03,6000,Marketplace,48567.64,2023-03-01,2023-03-15,"Parcel delivery, marketplace account"
 41,PARCELCO LTD,PC-003649,2023-04-03,2023-03,6000,Marketplace,"£51,773.41",2023-03-16,2023-03-31,"Parcel delivery, marketplace account"
-42,Searchly Ads,SRCH-07494,31/03/2023,2023-03,6200,Website,"£108,177.61",2023-03-01,2023-03-31,Advertising
-43,Socialreach Media Ltd ,SRM04328,31/03/2023,2023-03,6200,Website,"£54,088.81",2023-03-01,2023-03-31,Advertising
-44,LINKPARTNER AFFILIATES LTD,LPA-06127,2023-03-31,2023-03,6200,Website,"£18,029.60",2023-03-01,2023-03-31,Advertising
+42,Searchly Ads,SRCH-07494,31/03/2023,2023-03,6200,Website,"£73,560.78",2023-03-01,2023-03-31,Advertising
+43,Socialreach Media Ltd ,SRM04328,31/03/2023,2023-03,6200,Website,"£36,780.39",2023-03-01,2023-03-31,Advertising
+44,LINKPARTNER AFFILIATES LTD,LPA-06127,2023-03-31,2023-03,6200,Website,"£12,260.13",2023-03-01,2023-03-31,Advertising
 45,MIDSHIRE LOGISTICS PARK LTD,MLP8410,01/03/2023,2023-03,7100,Central,107235.06,2023-03-01,2023-03-01,Monthly charge
 46,Cloudstack Software Limited,CS-07603,2023-03-01,2023-03,7110,Central,58979.28,2023-03-01,2023-03-01,Monthly charge
 47,Kestrel Grid Energy Limited,KGE002505,2023-03-01,2023-03,7120,Central,32170.52,2023-03-01,2023-03-01,Monthly charge
@@ -80,9 +80,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 79,ParcelCo Limited,PC-003651,03/05/2023,2023-05,6000,Website,83763.15,2023-04-16,2023-04-30,"Parcel delivery, website account"
 80,ParcelCo Limited,PC-003652,2023-04-18,2023-04,6000,Marketplace,50052.19,2023-04-01,2023-04-15,"Parcel delivery, marketplace account"
 81,ParcelCo,PC-003653,03/05/2023,2023-05,6000,Marketplace,50546.09,2023-04-16,2023-04-30,"Parcel delivery, marketplace account"
-82,SEARCHLY ADS LTD,SRCH-07495,30/04/2023,2023-04,6200,Website,106398.14,2023-04-01,2023-04-30,Advertising
-83,SOCIALREACH MEDIA LTD,SRM04329,2023-04-30,2023-04,6200,Website,"£53,199.07",2023-04-01,2023-04-30,Advertising
-84,Linkpartner Affiliates,LPA-06128,30/04/2023,2023-04,6200,Website,17733.03,2023-04-01,2023-04-30,Advertising
+82,SEARCHLY ADS LTD,SRCH-07495,30/04/2023,2023-04,6200,Website,72350.74,2023-04-01,2023-04-30,Advertising
+83,SOCIALREACH MEDIA LTD,SRM04329,2023-04-30,2023-04,6200,Website,"£36,175.37",2023-04-01,2023-04-30,Advertising
+84,Linkpartner Affiliates,LPA-06128,30/04/2023,2023-04,6200,Website,12058.46,2023-04-01,2023-04-30,Advertising
 85,MIDSHIRE LOGISTICS PARK LTD,MLP8411,01/04/2023,2023-04,7100,Central,106607.84,2023-04-01,2023-04-01,Monthly charge
 86,Cloudstack Software Ltd,CS-07604,2023-04-01,2023-04,7110,Central,58634.31,2023-04-01,2023-04-01,Monthly charge
 87,Kestrel Grid Energy Ltd,KGE002506,2023-04-01,2023-04,7120,Central,31982.35,2023-04-01,2023-04-01,Monthly charge
@@ -117,9 +117,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 116,ParcelCo Limited,PC-003655,2023-06-03,2023-06,6000,Website,103760.38,2023-05-16,2023-05-31,"Parcel delivery, website account"
 117,ParcelCo,PC-003656,2023-05-18,2023-05,6000,Marketplace,59745.16,2023-05-01,2023-05-15,"Parcel delivery, marketplace account"
 118,ParcelCo Ltd ,PC-003657,2023-06-03,2023-06,6000,Marketplace,"£62,869.07",2023-05-16,2023-05-31,"Parcel delivery, marketplace account"
-119,Searchly Ads Ltd ,SRCH-07496,2023-05-31,2023-05,6200,Website,140456.62,2023-05-01,2023-05-31,Advertising
-120,SOCIALREACH MEDIA LTD,SRM04330,31/05/2023,2023-05,6200,Website,"£70,228.31",2023-05-01,2023-05-31,Advertising
-121,Linkpartner Affiliates,LPA-06129,2023-05-31,2023-05,6200,Website,23409.44,2023-05-01,2023-05-31,Advertising
+119,Searchly Ads Ltd ,SRCH-07496,2023-05-31,2023-05,6200,Website,95510.51,2023-05-01,2023-05-31,Advertising
+120,SOCIALREACH MEDIA LTD,SRM04330,31/05/2023,2023-05,6200,Website,"£47,755.25",2023-05-01,2023-05-31,Advertising
+121,Linkpartner Affiliates,LPA-06129,2023-05-31,2023-05,6200,Website,15918.42,2023-05-01,2023-05-31,Advertising
 122,Midshire Logistics Park,MLP8412,2023-05-01,2023-05,7100,Central,"£113,028.73",2023-05-01,2023-05-01,Monthly charge
 123,CLOUDSTACK SOFTWARE LTD,CS-07605,01/05/2023,2023-05,7110,Central,"£62,165.80",2023-05-01,2023-05-01,Monthly charge
 124,Kestrel Grid Energy Limited,KGE002507,2023-05-01,2023-05,7120,Central,33908.62,2023-05-01,2023-05-01,Monthly charge
@@ -155,9 +155,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 154,PARCELCO LTD,PC-003659,2023-07-03,2023-06,6000,Website,"£101,020.64",2023-06-16,2023-06-30,"Parcel delivery, website account"
 155,PARCELCO LTD,PC-003660,18/06/2023,2023-06,6000,Marketplace,"£69,270.09",2023-06-01,2023-06-15,"Parcel delivery, marketplace account"
 156,ParcelCo Ltd ,PC-003661,2023-07-03,2023-06,6000,Marketplace,69498.69,2023-06-16,2023-06-30,"Parcel delivery, marketplace account"
-157,Searchly Ads Ltd,SRCH-07497,2023-06-30,2023-06,6200,Website,141068.08,2023-06-01,2023-06-30,Advertising
-158,Socialreach Media Ltd,SRM04331,2023-06-30,2023-06,6200,Website,70534.04,2023-06-01,2023-06-30,Advertising
-159,Linkpartner Affiliates Limited,LPA-06130,2023-06-30,2023-06,6200,Website,"£23,511.35",2023-06-01,2023-06-30,Advertising
+157,Searchly Ads Ltd,SRCH-07497,2023-06-30,2023-06,6200,Website,95926.30,2023-06-01,2023-06-30,Advertising
+158,Socialreach Media Ltd,SRM04331,2023-06-30,2023-06,6200,Website,47963.15,2023-06-01,2023-06-30,Advertising
+159,Linkpartner Affiliates Limited,LPA-06130,2023-06-30,2023-06,6200,Website,"£15,987.71",2023-06-01,2023-06-30,Advertising
 160,Midshire Logistics Park,MLP8413,01/06/2023,2023-06,7100,Central,111092.09,2023-06-01,2023-06-01,Monthly charge
 161,Cloudstack Software Ltd ,CS-07606,2023-06-01,2023-06,7110,Central,61100.65,2023-06-01,2023-06-01,Monthly charge
 162,Kestrel Grid Energy,KGE002508,2023-06-01,2023-06,7120,Central,"£33,327.63",2023-06-01,2023-06-01,Monthly charge
@@ -195,9 +195,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 194,ParcelCo Limited,PC-003663,03/08/2023,2023-07,6000,Website,"£120,589.49",2023-07-16,2023-07-31,"Parcel delivery, website account"
 195,PARCELCO LTD,PC-003664,2023-07-18,2023-07,6000,Marketplace,"£62,266.99",2023-07-01,2023-07-15,"Parcel delivery, marketplace account"
 196,ParcelCo Ltd ,PC-003665,2023-08-03,2023-07,6000,Marketplace,"£67,387.61",2023-07-16,2023-07-31,"Parcel delivery, marketplace account"
-197,SEARCHLY ADS LTD,SRCH-07498,2023-07-31,2023-07,6200,Website,153407.64,2023-07-01,2023-07-31,Advertising
-198,Socialreach Media Ltd ,SRM04332,2023-07-31,2023-07,6200,Website,"£76,703.82",2023-07-01,2023-07-31,Advertising
-199,LINKPARTNER AFFILIATES LTD,LPA-06131,31/07/2023,2023-07,6200,Website,"£25,567.94",2023-07-01,2023-07-31,Advertising
+197,SEARCHLY ADS LTD,SRCH-07498,2023-07-31,2023-07,6200,Website,104317.19,2023-07-01,2023-07-31,Advertising
+198,Socialreach Media Ltd ,SRM04332,2023-07-31,2023-07,6200,Website,"£52,158.60",2023-07-01,2023-07-31,Advertising
+199,LINKPARTNER AFFILIATES LTD,LPA-06131,31/07/2023,2023-07,6200,Website,"£17,386.20",2023-07-01,2023-07-31,Advertising
 200,Midshire Logistics Park Ltd,MLP8414,01/07/2023,2023-07,7100,Central,"£104,447.64",2023-07-01,2023-07-01,Monthly charge
 201,CLOUDSTACK SOFTWARE LTD,CS-07607,2023-07-01,2023-07,7110,Central,"£57,446.20",2023-07-01,2023-07-01,Monthly charge
 202,Kestrel Grid Energy Ltd ,KGE002509,2023-07-01,2023-07,7120,Central,"£31,334.29",2023-07-01,2023-07-01,Monthly charge
@@ -231,9 +231,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 230,ParcelCo,PC-003667,03/09/2023,2023-08,6000,Website,129842.07,2023-08-16,2023-08-31,"Parcel delivery, website account"
 231,ParcelCo,PC-003668,2023-08-18,2023-08,6000,Marketplace,72062.64,2023-08-01,2023-08-15,"Parcel delivery, marketplace account"
 232,ParcelCo Limited,PC-003669,03/09/2023,2023-08,6000,Marketplace,"£76,581.50",2023-08-16,2023-08-31,"Parcel delivery, marketplace account"
-233,Searchly Ads Limited,SRCH-07499,31/08/2023,2023-08,6200,Website,160191.49,2023-08-01,2023-08-31,Advertising
-234,SOCIALREACH MEDIA LTD,SRM04333,2023-08-31,2023-08,6200,Website,80095.75,2023-08-01,2023-08-31,Advertising
-235,Linkpartner Affiliates Ltd ,LPA-06132,2023-08-31,2023-08,6200,Website,26698.58,2023-08-01,2023-08-31,Advertising
+233,Searchly Ads Limited,SRCH-07499,31/08/2023,2023-08,6200,Website,108930.22,2023-08-01,2023-08-31,Advertising
+234,SOCIALREACH MEDIA LTD,SRM04333,2023-08-31,2023-08,6200,Website,54465.11,2023-08-01,2023-08-31,Advertising
+235,Linkpartner Affiliates Ltd ,LPA-06132,2023-08-31,2023-08,6200,Website,18155.03,2023-08-01,2023-08-31,Advertising
 236,MIDSHIRE LOGISTICS PARK LTD,MLP8415,01/08/2023,2023-08,7100,Central,109269.46,2023-08-01,2023-08-01,Monthly charge
 237,CLOUDSTACK SOFTWARE LTD,CS-07608,2023-08-01,2023-08,7110,Central,60098.20,2023-08-01,2023-08-01,Monthly charge
 238,KESTREL GRID ENERGY LTD,KGE002510,01/08/2023,2023-08,7120,Central,32780.84,2023-08-01,2023-08-01,Monthly charge
@@ -265,9 +265,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 264,ParcelCo Limited,PC-003671,2023-10-03,2023-09,6000,Website,106697.73,2023-09-16,2023-09-30,"Parcel delivery, website account"
 265,ParcelCo Ltd,PC-003672,2023-09-18,2023-09,6000,Marketplace,67964.04,2023-09-01,2023-09-15,"Parcel delivery, marketplace account"
 266,ParcelCo Ltd ,PC-003673,2023-10-03,2023-09,6000,Marketplace,67964.07,2023-09-16,2023-09-30,"Parcel delivery, marketplace account"
-267,Searchly Ads Limited,SRCH-07500,2023-09-30,2023-09,6200,Website,148209.83,2023-09-01,2023-09-30,Advertising
-268,Socialreach Media,SRM04334,2023-09-30,2023-09,6200,Website,"£74,104.91",2023-09-01,2023-09-30,Advertising
-269,LINKPARTNER AFFILIATES LTD,LPA-06133,2023-09-30,2023-09,7110,Website,"£24,701.64",2023-09-01,2023-09-30,Advertising
+267,Searchly Ads Limited,SRCH-07500,2023-09-30,2023-09,6200,Website,100782.68,2023-09-01,2023-09-30,Advertising
+268,Socialreach Media,SRM04334,2023-09-30,2023-09,6200,Website,"£50,391.34",2023-09-01,2023-09-30,Advertising
+269,LINKPARTNER AFFILIATES LTD,LPA-06133,2023-09-30,2023-09,7110,Website,"£16,797.11",2023-09-01,2023-09-30,Advertising
 270,Midshire Logistics Park Ltd ,MLP8416,2023-09-01,2023-09,7100,Central,112506.29,2023-09-01,2023-09-01,Monthly charge
 271,Cloudstack Software Limited,CS-07609,2023-09-01,2023-09,7110,Central,"£61,878.46",2023-09-01,2023-09-01,Monthly charge
 272,Kestrel Grid Energy,KGE002511,01/09/2023,2023-09,7120,Central,33751.89,2023-09-01,2023-09-01,Monthly charge
@@ -301,9 +301,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 300,ParcelCo Ltd,PC-003675,2023-11-03,2023-10,6000,Website,112246.73,2023-10-16,2023-10-31,"Parcel delivery, website account"
 301,PARCELCO LTD,PC-003676,2023-10-18,2023-10,6000,Marketplace,"£60,262.76",2023-10-01,2023-10-15,"Parcel delivery, marketplace account"
 302,ParcelCo,PC-003677,2023-11-03,2023-11,6000,Marketplace,"£63,796.11",2023-10-16,2023-10-31,"Parcel delivery, marketplace account"
-303,Searchly Ads Limited,SRCH-07501,2023-10-31,2023-10,7110,Website,"£136,277.25",2023-10-01,2023-10-31,Advertising
-304,Socialreach Media,SRM04335,31/10/2023,2023-10,6200,Website,68138.62,2023-10-01,2023-10-31,Advertising
-305,Linkpartner Affiliates Ltd,LPA-06134,2023-10-31,2023-10,7110,Website,22712.88,2023-10-01,2023-10-31,Advertising
+303,Searchly Ads Limited,SRCH-07501,2023-10-31,2023-10,7110,Website,"£92,668.53",2023-10-01,2023-10-31,Advertising
+304,Socialreach Media,SRM04335,31/10/2023,2023-10,6200,Website,46334.26,2023-10-01,2023-10-31,Advertising
+305,Linkpartner Affiliates Ltd,LPA-06134,2023-10-31,2023-10,7110,Website,15444.76,2023-10-01,2023-10-31,Advertising
 306,Midshire Logistics Park Ltd,MLP8417,01/10/2023,2023-10,7100,Central,"£116,564.43",2023-10-01,2023-10-01,Monthly charge
 307,Cloudstack Software Ltd ,CS-07610,2023-10-01,2023-10,6200,Central,64110.44,2023-10-01,2023-10-01,Monthly charge
 308,Kestrel Grid Energy Ltd,KGE002512,2023-10-01,2023-10,7120,Central,34969.33,2023-10-01,2023-10-01,Monthly charge
@@ -340,9 +340,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 339,PARCELCO LTD,PC-003679,03/12/2023,2023-11,6000,Website,143189.83,2023-11-16,2023-11-30,"Parcel delivery, website account"
 340,ParcelCo Limited,PC-003680,18/11/2023,2023-11,6000,Marketplace,71864.71,2023-11-01,2023-11-15,"Parcel delivery, marketplace account"
 341,ParcelCo Ltd,PC-003681,03/12/2023,2023-11,6000,Marketplace,86569.68,2023-11-16,2023-11-30,"Parcel delivery, marketplace account"
-342,SEARCHLY ADS LTD,SRCH-07502,2023-11-30,2023-11,6200,Website,"£163,576.45",2023-11-01,2023-11-30,Advertising
-343,Socialreach Media Ltd ,SRM04336,2023-11-30,2023-11,6200,Website,"£81,788.22",2023-11-01,2023-11-30,Advertising
-344,LINKPARTNER AFFILIATES LTD,LPA-06135,2023-11-30,2023-11,6200,Website,27262.74,2023-11-01,2023-11-30,Advertising
+342,SEARCHLY ADS LTD,SRCH-07502,2023-11-30,2023-11,6200,Website,"£111,231.98",2023-11-01,2023-11-30,Advertising
+343,Socialreach Media Ltd ,SRM04336,2023-11-30,2023-11,6200,Website,"£55,615.99",2023-11-01,2023-11-30,Advertising
+344,LINKPARTNER AFFILIATES LTD,LPA-06135,2023-11-30,2023-11,6200,Website,18538.67,2023-11-01,2023-11-30,Advertising
 345,Midshire Logistics Park Ltd,MLP8418,2023-11-01,2023-11,7100,Central,107659.91,2023-11-01,2023-11-01,Monthly charge
 346,Cloudstack Software Limited,CS-07611,2023-11-01,2023-11,7110,Central,"£59,212.95",2023-11-01,2023-11-01,Monthly charge
 347,Kestrel Grid Energy,KGE002513,01/11/2023,2023-11,7120,Central,32297.97,2023-11-01,2023-11-01,Monthly charge
@@ -374,9 +374,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 373,PARCELCO LTD,PC-003683,03/01/2024,2023-12,6000,Website,148761.01,2023-12-16,2023-12-31,"Parcel delivery, website account"
 374,ParcelCo Ltd,PC-003684,2023-12-18,2023-12,6000,Marketplace,"£77,766.43",2023-12-01,2023-12-15,"Parcel delivery, marketplace account"
 375,PARCELCO LTD,PC-003685,2024-01-03,2023-12,6000,Marketplace,83598.97,2023-12-16,2023-12-31,"Parcel delivery, marketplace account"
-376,SEARCHLY ADS LTD,SRCH-07503,2023-12-31,2023-12,6200,Website,"£177,573.56",2023-12-01,2023-12-31,Advertising
-377,Socialreach Media Ltd ,SRM04337,2023-12-31,2023-12,6200,Website,88786.78,2023-12-01,2023-12-31,Advertising
-378,Linkpartner Affiliates Ltd,LPA-06136,2023-12-31,2023-12,6200,Website,29595.59,2023-12-01,2023-12-31,Advertising
+376,SEARCHLY ADS LTD,SRCH-07503,2023-12-31,2023-12,6200,Website,"£120,750.02",2023-12-01,2023-12-31,Advertising
+377,Socialreach Media Ltd ,SRM04337,2023-12-31,2023-12,6200,Website,60375.01,2023-12-01,2023-12-31,Advertising
+378,Linkpartner Affiliates Ltd,LPA-06136,2023-12-31,2023-12,6200,Website,20125.01,2023-12-01,2023-12-31,Advertising
 379,Midshire Logistics Park Ltd ,MLP8419,2023-12-01,2023-12,7100,Central,115070.95,2023-12-01,2023-12-01,Monthly charge
 380,Cloudstack Software Ltd ,CS-07612,2023-12-01,2023-12,7110,Central,63289.02,2023-12-01,2023-12-01,Monthly charge
 381,Kestrel Grid Energy Ltd,KGE002514,01/12/2023,2023-12,7120,Central,34521.29,2023-12-01,2023-12-01,Monthly charge
@@ -407,9 +407,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 406,ParcelCo,PC-003687,03/02/2024,2024-01,6000,Website,118435.32,2024-01-16,2024-01-31,"Parcel delivery, website account"
 407,ParcelCo Ltd,PC-003688,18/01/2024,2024-01,6000,Marketplace,"£65,478.50",2024-01-01,2024-01-15,"Parcel delivery, marketplace account"
 408,ParcelCo Ltd,PC-003689,03/02/2024,2024-01,6000,Marketplace,"£68,902.22",2024-01-16,2024-01-31,"Parcel delivery, marketplace account"
-409,Searchly Ads Limited,SRCH-07504,2024-01-31,2024-01,6200,Website,137097.70,2024-01-01,2024-01-31,Advertising
-410,Socialreach Media Ltd,SRM04338,2024-01-31,2024-01,6200,Website,68548.85,2024-01-01,2024-01-31,Advertising
-411,Linkpartner Affiliates Limited,LPA-06137,2024-01-31,2024-01,6200,Website,22849.62,2024-01-01,2024-01-31,Advertising
+409,Searchly Ads Limited,SRCH-07504,2024-01-31,2024-01,6200,Website,93226.44,2024-01-01,2024-01-31,Advertising
+410,Socialreach Media Ltd,SRM04338,2024-01-31,2024-01,6200,Website,46613.22,2024-01-01,2024-01-31,Advertising
+411,Linkpartner Affiliates Limited,LPA-06137,2024-01-31,2024-01,6200,Website,15537.74,2024-01-01,2024-01-31,Advertising
 412,MIDSHIRE LOGISTICS PARK LTD,MLP8420,2024-01-01,2024-01,7100,Central,108656.27,2024-01-01,2024-01-01,Monthly charge
 413,Cloudstack Software Limited,CS-07613,2024-01-01,2024-01,7110,Central,59760.95,2024-01-01,2024-01-01,Monthly charge
 414,Kestrel Grid Energy Ltd,KGE002515,01/01/2024,2024-01,7120,Central,32596.88,2024-01-01,2024-01-01,Monthly charge
@@ -447,9 +447,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 446,ParcelCo Ltd,PC-003691,2024-03-03,2024-02,6000,Website,75719.24,2024-02-16,2024-02-29,"Parcel delivery, website account"
 447,PARCELCO LTD,PC-003692,2024-02-18,2024-02,6000,Marketplace,48008.88,2024-02-01,2024-02-15,"Parcel delivery, marketplace account"
 448,ParcelCo Limited,PC-003693,03/03/2024,2024-02,6000,Marketplace,44998.39,2024-02-16,2024-02-29,"Parcel delivery, marketplace account"
-449,Searchly Ads Limited,SRCH-07505,29/02/2024,2024-02,6200,Website,102073.07,2024-02-01,2024-02-29,Advertising
-450,Socialreach Media,SRM04339,29/02/2024,2024-02,6200,Website,51036.54,2024-02-01,2024-02-29,Advertising
-451,Linkpartner Affiliates Limited,LPA-06138,29/02/2024,2024-02,6200,Website,17012.18,2024-02-01,2024-02-29,Advertising
+449,Searchly Ads Limited,SRCH-07505,29/02/2024,2024-02,6200,Website,69409.69,2024-02-01,2024-02-29,Advertising
+450,Socialreach Media,SRM04339,29/02/2024,2024-02,6200,Website,34704.85,2024-02-01,2024-02-29,Advertising
+451,Linkpartner Affiliates Limited,LPA-06138,29/02/2024,2024-02,6200,Website,11568.28,2024-02-01,2024-02-29,Advertising
 452,Midshire Logistics Park Limited,MLP8421,2024-02-01,2024-02,7100,Central,125596.98,2024-02-01,2024-02-01,Monthly charge
 453,Cloudstack Software,CS-07614,2024-02-01,2024-02,7110,Central,69078.34,2024-02-01,2024-02-01,Monthly charge
 454,Kestrel Grid Energy Ltd ,KGE002516,2024-02-01,2024-02,7120,Central,"£37,679.09",2024-02-01,2024-02-01,Monthly charge
@@ -480,9 +480,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 479,ParcelCo Limited,PC-003695,2024-04-03,2024-03,6000,Website,92940.88,2024-03-16,2024-03-31,"Parcel delivery, website account"
 480,ParcelCo Ltd,PC-003696,2024-03-18,2024-03,6000,Marketplace,53969.27,2024-03-01,2024-03-15,"Parcel delivery, marketplace account"
 481,ParcelCo Limited,PC-003697,2024-04-03,2024-03,6000,Marketplace,58052.49,2024-03-16,2024-03-31,"Parcel delivery, marketplace account"
-482,Searchly Ads,SRCH-07506,2024-03-31,2024-03,6200,Website,"£118,404.56",2024-03-01,2024-03-31,Advertising
-483,SOCIALREACH MEDIA LTD,SRM04340,31/03/2024,2024-03,6200,Website,"£59,202.28",2024-03-01,2024-03-31,Advertising
-484,Linkpartner Affiliates Limited,LPA-06139,2024-03-31,2024-03,6200,Website,"£19,734.09",2024-03-01,2024-03-31,Advertising
+482,Searchly Ads,SRCH-07506,2024-03-31,2024-03,6200,Website,"£80,515.10",2024-03-01,2024-03-31,Advertising
+483,SOCIALREACH MEDIA LTD,SRM04340,31/03/2024,2024-03,6200,Website,"£40,257.55",2024-03-01,2024-03-31,Advertising
+484,Linkpartner Affiliates Limited,LPA-06139,2024-03-31,2024-03,6200,Website,"£13,419.19",2024-03-01,2024-03-31,Advertising
 485,Midshire Logistics Park Ltd,MLP8422,2024-03-01,2024-03,7100,Central,"£118,611.78",2024-03-01,2024-03-01,Monthly charge
 486,CLOUDSTACK SOFTWARE LTD,CS-07615,01/03/2024,2024-03,7110,Central,65236.48,2024-03-01,2024-03-01,Monthly charge
 487,KESTREL GRID ENERGY LTD,KGE002517,2024-03-01,2024-03,7150,Central,35583.53,2024-03-01,2024-03-01,Approved recode: emergency generator repair
@@ -521,9 +521,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 520,ParcelCo Limited,PC-003699,2024-05-03,2024-04,6000,Website,90292.26,2024-04-16,2024-04-30,"Parcel delivery, website account"
 521,ParcelCo Ltd ,PC-003700,2024-04-18,2024-04,6000,Marketplace,56303.46,2024-04-01,2024-04-15,"Parcel delivery, marketplace account"
 522,ParcelCo,PC-003701,2024-05-03,2024-04,6000,Marketplace,55751.46,2024-04-16,2024-04-30,"Parcel delivery, marketplace account"
-523,Searchly Ads Ltd,SRCH-07507,2024-04-30,2024-04,6200,Website,"£119,001.17",2024-04-01,2024-04-30,Advertising
-524,Socialreach Media Ltd,SRM04341,2024-04-30,2024-04,6200,Website,59500.58,2024-04-01,2024-04-30,Advertising
-525,LINKPARTNER AFFILIATES LTD,LPA-06140,2024-04-30,2024-04,6200,Website,19833.53,2024-04-01,2024-04-30,Advertising
+523,Searchly Ads Ltd,SRCH-07507,2024-04-30,2024-04,6200,Website,"£80,920.79",2024-04-01,2024-04-30,Advertising
+524,Socialreach Media Ltd,SRM04341,2024-04-30,2024-04,6200,Website,40460.40,2024-04-01,2024-04-30,Advertising
+525,LINKPARTNER AFFILIATES LTD,LPA-06140,2024-04-30,2024-04,6200,Website,13486.80,2024-04-01,2024-04-30,Advertising
 526,Midshire Logistics Park Limited,MLP8423,01/04/2024,2024-04,7100,Central,119350.93,2024-04-01,2024-04-01,Monthly charge
 527,Cloudstack Software Ltd,CS-07616,01/04/2024,2024-04,7110,Central,65643.01,2024-04-01,2024-04-01,Monthly charge
 528,Kestrel Grid Energy Limited,KGE002518,01/04/2024,2024-04,7120,Central,35805.28,2024-04-01,2024-04-01,Monthly charge
@@ -556,9 +556,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 555,ParcelCo,PC-003703,2024-06-03,2024-05,6000,Website,115057.09,2024-05-16,2024-05-31,"Parcel delivery, website account"
 556,ParcelCo Ltd ,PC-003704,2024-05-18,2024-05,6000,Marketplace,"£66,487.59",2024-05-01,2024-05-15,"Parcel delivery, marketplace account"
 557,ParcelCo,PC-003705,2024-06-03,2024-05,6000,Marketplace,70876.16,2024-05-16,2024-05-31,"Parcel delivery, marketplace account"
-558,Searchly Ads Ltd ,SRCH-07508,31/05/2024,2024-05,6200,Website,"£153,693.76",2024-05-01,2024-05-31,Advertising
-559,Socialreach Media,SRM04342,31/05/2024,2024-05,6200,Website,"£76,846.88",2024-05-01,2024-05-31,Advertising
-560,Linkpartner Affiliates Ltd,LPA-06141,31/05/2024,2024-05,6200,Website,25615.62,2024-05-01,2024-05-31,Advertising
+558,Searchly Ads Ltd ,SRCH-07508,31/05/2024,2024-05,6200,Website,"£104,511.76",2024-05-01,2024-05-31,Advertising
+559,Socialreach Media,SRM04342,31/05/2024,2024-05,6200,Website,"£52,255.88",2024-05-01,2024-05-31,Advertising
+560,Linkpartner Affiliates Ltd,LPA-06141,31/05/2024,2024-05,6200,Website,17418.62,2024-05-01,2024-05-31,Advertising
 561,Midshire Logistics Park,MLP8424,2024-05-01,2024-05,7100,Central,126765.34,2024-05-01,2024-05-01,Monthly charge
 562,Cloudstack Software Ltd,CS-07617,2024-05-01,2024-05,7110,Central,69720.94,2024-05-01,2024-05-01,Monthly charge
 563,Kestrel Grid Energy Ltd,KGE002519,01/05/2024,2024-05,7120,Central,38029.60,2024-05-01,2024-05-01,Monthly charge
@@ -593,9 +593,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 592,ParcelCo Ltd,PC-003707,2024-07-03,2024-06,6000,Website,119732.84,2024-06-16,2024-06-30,"Parcel delivery, website account"
 593,ParcelCo Ltd ,PC-003708,2024-06-18,2024-06,6000,Marketplace,76890.87,2024-06-01,2024-06-15,"Parcel delivery, marketplace account"
 594,ParcelCo Limited,PC-003709,2024-07-03,2024-06,6000,Marketplace,77649.71,2024-06-16,2024-06-30,"Parcel delivery, marketplace account"
-595,Searchly Ads Ltd,SRCH-07509,2024-06-30,2024-06,6200,Website,160344.20,2024-06-01,2024-06-30,Advertising
-596,Socialreach Media Limited,SRM04343,2024-06-30,2024-06,6200,Website,"£80,172.10",2024-06-01,2024-06-30,Advertising
-597,Linkpartner Affiliates,LPA-06142,2024-06-30,2024-06,6200,Website,26724.04,2024-06-01,2024-06-30,Advertising
+595,Searchly Ads Ltd,SRCH-07509,2024-06-30,2024-06,6200,Website,109034.06,2024-06-01,2024-06-30,Advertising
+596,Socialreach Media Limited,SRM04343,2024-06-30,2024-06,6200,Website,"£54,517.03",2024-06-01,2024-06-30,Advertising
+597,Linkpartner Affiliates,LPA-06142,2024-06-30,2024-06,6200,Website,18172.34,2024-06-01,2024-06-30,Advertising
 598,Midshire Logistics Park Ltd,MLP8425,2024-06-01,2024-06,7100,Central,120119.45,2024-06-01,2024-06-01,Monthly charge
 599,Cloudstack Software,CS-07618,01/06/2024,2024-06,7110,Central,66065.70,2024-06-01,2024-06-01,Monthly charge
 600,Kestrel Grid Energy Limited,KGE002520,2024-06-01,2024-06,7120,Central,36035.84,2024-06-01,2024-06-01,Monthly charge
@@ -628,9 +628,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 627,ParcelCo,PC-003711,2024-08-03,2024-07,6000,Website,131169.00,2024-07-16,2024-07-31,"Parcel delivery, website account"
 628,ParcelCo Ltd,PC-003712,18/07/2024,2024-07,6000,Marketplace,70660.25,2024-07-01,2024-07-15,"Parcel delivery, marketplace account"
 629,ParcelCo Ltd,PC-003713,03/08/2024,2024-08,6000,Marketplace,"£74,354.86",2024-07-16,2024-07-31,"Parcel delivery, marketplace account"
-630,Searchly Ads Ltd,SRCH-07510,2024-07-31,2024-07,6200,Website,"£166,951.78",2024-07-01,2024-07-31,Advertising
-631,SOCIALREACH MEDIA LTD,SRM04344,2024-07-31,2024-07,6200,Website,"£83,475.89",2024-07-01,2024-07-31,Advertising
-632,Linkpartner Affiliates,LPA-06143,2024-07-31,2024-07,6200,Website,"£27,825.30",2024-07-01,2024-07-31,Advertising
+630,Searchly Ads Ltd,SRCH-07510,2024-07-31,2024-07,6200,Website,"£113,527.21",2024-07-01,2024-07-31,Advertising
+631,SOCIALREACH MEDIA LTD,SRM04344,2024-07-31,2024-07,6200,Website,"£56,763.61",2024-07-01,2024-07-31,Advertising
+632,Linkpartner Affiliates,LPA-06143,2024-07-31,2024-07,6200,Website,"£18,921.20",2024-07-01,2024-07-31,Advertising
 633,MIDSHIRE LOGISTICS PARK LTD,MLP8426,01/07/2024,2024-07,7100,Central,"£115,806.22",2024-07-01,2024-07-01,Monthly charge
 634,CLOUDSTACK SOFTWARE LTD,CS-07619,2024-07-01,2024-07,7110,Central,63693.42,2024-07-01,2024-07-01,Monthly charge
 635,Kestrel Grid Energy Ltd ,KGE002521,2024-07-01,2024-07,7120,Central,"£34,741.86",2024-07-01,2024-07-01,Monthly charge
@@ -663,9 +663,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 662,ParcelCo Ltd ,PC-003715,03/09/2024,2024-08,6000,Website,142923.29,2024-08-16,2024-08-31,"Parcel delivery, website account"
 663,ParcelCo Ltd ,PC-003716,2024-08-18,2024-08,6000,Marketplace,76077.86,2024-08-01,2024-08-15,"Parcel delivery, marketplace account"
 664,ParcelCo,PC-003717,2024-09-03,2024-08,6000,Marketplace,"£81,350.56",2024-08-16,2024-08-31,"Parcel delivery, marketplace account"
-665,Searchly Ads Ltd ,SRCH-07511,2024-08-31,2024-08,6200,Website,166463.51,2024-08-01,2024-08-31,Advertising
-666,Socialreach Media Limited,SRM04345,2024-08-31,2024-08,6200,Website,"£83,231.75",2024-08-01,2024-08-31,Advertising
-667,LINKPARTNER AFFILIATES LTD,LPA-06144,2024-08-31,2024-08,6200,Website,27743.92,2024-08-01,2024-08-31,Advertising
+665,Searchly Ads Ltd ,SRCH-07511,2024-08-31,2024-08,6200,Website,113195.19,2024-08-01,2024-08-31,Advertising
+666,Socialreach Media Limited,SRM04345,2024-08-31,2024-08,6200,Website,"£56,597.59",2024-08-01,2024-08-31,Advertising
+667,LINKPARTNER AFFILIATES LTD,LPA-06144,2024-08-31,2024-08,6200,Website,18865.87,2024-08-01,2024-08-31,Advertising
 668,Midshire Logistics Park Limited,MLP8427,2024-08-01,2024-08,7100,Central,119602.18,2024-08-01,2024-08-01,Monthly charge
 669,Cloudstack Software Ltd,CS-07620,2024-08-01,2024-08,7110,Central,"£65,781.20",2024-08-01,2024-08-01,Monthly charge
 670,Kestrel Grid Energy Limited,KGE002522,01/08/2024,2024-08,7120,Central,35880.65,2024-08-01,2024-08-01,Monthly charge
@@ -704,9 +704,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 703,ParcelCo Ltd,PC-003719,03/10/2024,2024-09,6000,Website,120123.82,2024-09-16,2024-09-30,"Parcel delivery, website account"
 704,ParcelCo Ltd,PC-003720,18/09/2024,2024-09,6000,Marketplace,"£75,069.31",2024-09-01,2024-09-15,"Parcel delivery, marketplace account"
 705,ParcelCo Ltd ,PC-003721,03/10/2024,2024-09,6000,Marketplace,74824.83,2024-09-16,2024-09-30,"Parcel delivery, marketplace account"
-706,Searchly Ads Ltd,SRCH-07512,2024-09-30,2024-09,6200,Website,160772.35,2024-09-01,2024-09-30,Advertising
-707,SOCIALREACH MEDIA LTD,SRM04346,30/09/2024,2024-09,6200,Website,80386.18,2024-09-01,2024-09-30,Advertising
-708,Linkpartner Affiliates Ltd,LPA-06145,2024-09-30,2024-09,6200,Website,26795.39,2024-09-01,2024-09-30,Advertising
+706,Searchly Ads Ltd,SRCH-07512,2024-09-30,2024-09,6200,Website,109325.20,2024-09-01,2024-09-30,Advertising
+707,SOCIALREACH MEDIA LTD,SRM04346,30/09/2024,2024-09,6200,Website,54662.60,2024-09-01,2024-09-30,Advertising
+708,Linkpartner Affiliates Ltd,LPA-06145,2024-09-30,2024-09,6200,Website,18220.86,2024-09-01,2024-09-30,Advertising
 709,Midshire Logistics Park,MLP8428,2024-09-01,2024-09,7100,Central,119391.31,2024-09-01,2024-09-01,Monthly charge
 710,Cloudstack Software Ltd ,CS-07621,2024-09-01,2024-09,7110,Central,65665.22,2024-09-01,2024-09-01,Monthly charge
 711,Kestrel Grid Energy Ltd ,KGE002523,2024-09-01,2024-09,7120,Central,35817.39,2024-09-01,2024-09-01,Monthly charge
@@ -737,9 +737,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 736,ParcelCo,PC-003723,2024-11-03,2024-11,6000,Website,"£123,539.81",2024-10-16,2024-10-31,"Parcel delivery, website account"
 737,ParcelCo,PC-003724,2024-10-18,2024-10,6000,Marketplace,65563.14,2024-10-01,2024-10-15,"Parcel delivery, marketplace account"
 738,PARCELCO LTD,PC-003725,2024-11-03,2024-10,6000,Marketplace,"£69,674.24",2024-10-16,2024-10-31,"Parcel delivery, marketplace account"
-739,Searchly Ads Limited,SRCH-07513,2024-10-31,2024-10,6200,Website,151230.07,2024-10-01,2024-10-31,Advertising
-740,SOCIALREACH MEDIA LTD,SRM04347,31/10/2024,2024-10,6200,Website,75615.04,2024-10-01,2024-10-31,Advertising
-741,Linkpartner Affiliates Limited,LPA-06146,31/10/2024,2024-10,6200,Website,25205.01,2024-10-01,2024-10-31,Advertising
+739,Searchly Ads Limited,SRCH-07513,2024-10-31,2024-10,6200,Website,102836.45,2024-10-01,2024-10-31,Advertising
+740,SOCIALREACH MEDIA LTD,SRM04347,31/10/2024,2024-10,6200,Website,51418.22,2024-10-01,2024-10-31,Advertising
+741,Linkpartner Affiliates Limited,LPA-06146,31/10/2024,2024-10,6200,Website,17139.41,2024-10-01,2024-10-31,Advertising
 742,Midshire Logistics Park Ltd ,MLP8429,2024-10-01,2024-10,7100,Central,125362.16,2024-10-01,2024-10-01,Monthly charge
 743,CLOUDSTACK SOFTWARE LTD,CS-07622,2024-10-01,2024-10,7110,Central,"£68,949.19",2024-10-01,2024-10-01,Monthly charge
 744,KESTREL GRID ENERGY LTD,KGE002524,2024-10-01,2024-10,7120,Central,"£37,608.65",2024-10-01,2024-10-01,Monthly charge
@@ -772,9 +772,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 771,ParcelCo Limited,PC-003727,2024-12-03,2024-12,6000,Website,"£148,829.96",2024-11-16,2024-11-30,"Parcel delivery, website account"
 772,PARCELCO LTD,PC-003728,2024-11-18,2024-11,6000,Marketplace,"£83,077.61",2024-11-01,2024-11-15,"Parcel delivery, marketplace account"
 773,ParcelCo Ltd ,PC-003729,2024-12-03,2024-12,6000,Marketplace,94008.93,2024-11-16,2024-11-30,"Parcel delivery, marketplace account"
-774,SEARCHLY ADS LTD,SRCH-07514,30/11/2024,2024-11,6200,Website,"£186,549.13",2024-11-01,2024-11-30,Advertising
-775,Socialreach Media Limited,SRM04348,2024-11-30,2024-11,6200,Website,93274.56,2024-11-01,2024-11-30,Advertising
-776,LINKPARTNER AFFILIATES LTD,LPA-06147,2024-11-30,2024-11,6200,Website,31091.52,2024-11-01,2024-11-30,Advertising
+774,SEARCHLY ADS LTD,SRCH-07514,30/11/2024,2024-11,6200,Website,"£126,853.40",2024-11-01,2024-11-30,Advertising
+775,Socialreach Media Limited,SRM04348,2024-11-30,2024-11,6200,Website,63426.70,2024-11-01,2024-11-30,Advertising
+776,LINKPARTNER AFFILIATES LTD,LPA-06147,2024-11-30,2024-11,6200,Website,21142.24,2024-11-01,2024-11-30,Advertising
 777,MIDSHIRE LOGISTICS PARK LTD,MLP8430,2024-11-01,2024-11,7100,Central,119258.45,2024-11-01,2024-11-01,Monthly charge
 778,Cloudstack Software Ltd ,CS-07623,2024-11-01,2024-11,7110,Central,"£65,592.15",2024-11-01,2024-11-01,Monthly charge
 779,Kestrel Grid Energy Ltd,KGE002525,01/11/2024,2024-11,7120,Central,35777.53,2024-11-01,2024-11-01,Monthly charge
@@ -813,9 +813,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 812,ParcelCo,PC-003731,2025-01-03,2024-12,6000,Website,157735.15,2024-12-16,2024-12-31,"Parcel delivery, website account"
 813,ParcelCo Limited,PC-003732,2024-12-18,2024-12,6000,Marketplace,88664.92,2024-12-01,2024-12-15,"Parcel delivery, marketplace account"
 814,ParcelCo Ltd ,PC-003733,2025-01-03,2024-12,6000,Marketplace,88098.98,2024-12-16,2024-12-31,"Parcel delivery, marketplace account"
-815,Searchly Ads Ltd,SRCH-07515,2024-12-31,2024-12,6200,Website,"£200,429.25",2024-12-01,2024-12-31,Advertising
-816,Socialreach Media,SRM04349,2024-12-31,2024-12,6200,Website,100214.62,2024-12-01,2024-12-31,Advertising
-817,Linkpartner Affiliates Ltd ,LPA-06148,2024-12-31,2024-12,6200,Website,33404.88,2024-12-01,2024-12-31,Advertising
+815,Searchly Ads Ltd,SRCH-07515,2024-12-31,2024-12,6200,Website,"£136,291.89",2024-12-01,2024-12-31,Advertising
+816,Socialreach Media,SRM04349,2024-12-31,2024-12,6200,Website,68145.94,2024-12-01,2024-12-31,Advertising
+817,Linkpartner Affiliates Ltd ,LPA-06148,2024-12-31,2024-12,6200,Website,22715.32,2024-12-01,2024-12-31,Advertising
 818,Midshire Logistics Park Ltd,MLP8431,2024-12-01,2024-12,7100,Central,127110.98,2024-12-01,2024-12-01,Monthly charge
 819,Cloudstack Software,CS-07624,2024-12-01,2024-12,7110,Central,69911.04,2024-12-01,2024-12-01,Monthly charge
 820,Kestrel Grid Energy Limited,KGE002526,01/12/2024,2024-12,7120,Central,"£38,133.30",2024-12-01,2024-12-01,Monthly charge
@@ -855,9 +855,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 854,ParcelCo Ltd,PC-003735,2025-02-03,2025-01,6000,Website,"£127,446.62",2025-01-16,2025-01-31,"Parcel delivery, website account"
 855,PARCELCO LTD,PC-003736,2025-01-18,2025-01,6000,Marketplace,70786.41,2025-01-01,2025-01-15,"Parcel delivery, marketplace account"
 856,ParcelCo,PC-003737,2025-02-03,2025-01,6000,Marketplace,75458.81,2025-01-16,2025-01-31,"Parcel delivery, marketplace account"
-857,Searchly Ads Limited,SRCH-07516,2025-01-31,2025-01,6200,Website,151768.25,2025-01-01,2025-01-31,Advertising
-858,Socialreach Media,SRM04350,2025-01-31,2025-01,6200,Website,"£75,884.13",2025-01-01,2025-01-31,Advertising
-859,Linkpartner Affiliates,LPA-06149,2025-01-31,2025-01,6200,Website,"£25,294.71",2025-01-01,2025-01-31,Advertising
+857,Searchly Ads Limited,SRCH-07516,2025-01-31,2025-01,6200,Website,103202.41,2025-01-01,2025-01-31,Advertising
+858,Socialreach Media,SRM04350,2025-01-31,2025-01,6200,Website,"£51,601.21",2025-01-01,2025-01-31,Advertising
+859,Linkpartner Affiliates,LPA-06149,2025-01-31,2025-01,6200,Website,"£17,200.40",2025-01-01,2025-01-31,Advertising
 860,Midshire Logistics Park Ltd,MLP8432,01/01/2025,2025-01,7100,Central,"£118,652.47",2025-01-01,2025-01-01,Monthly charge
 861,Cloudstack Software Ltd ,CS-07625,2025-01-01,2025-01,7110,Central,"£65,258.86",2025-01-01,2025-01-01,Monthly charge
 862,Kestrel Grid Energy Limited,KGE002527,2025-01-01,2025-01,7120,Central,35595.74,2025-01-01,2025-01-01,Monthly charge
@@ -889,9 +889,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 888,ParcelCo Ltd,PC-003739,2025-03-03,2025-02,6000,Website,86032.67,2025-02-16,2025-02-28,"Parcel delivery, website account"
 889,ParcelCo Ltd,PC-003740,2025-02-18,2025-02,6000,Marketplace,54692.17,2025-02-01,2025-02-15,"Parcel delivery, marketplace account"
 890,ParcelCo,PC-003741,2025-03-03,2025-02,6000,Marketplace,"£47,495.82",2025-02-16,2025-02-28,"Parcel delivery, marketplace account"
-891,Searchly Ads Ltd,SRCH-07517,2025-02-28,2025-02,6200,Website,"£114,898.35",2025-02-01,2025-02-28,Advertising
-892,Socialreach Media Limited,SRM04351,28/02/2025,2025-02,6200,Website,57449.17,2025-02-01,2025-02-28,Advertising
-893,LINKPARTNER AFFILIATES LTD,LPA-06150,2025-02-28,2025-02,6200,Website,19149.73,2025-02-01,2025-02-28,Advertising
+891,Searchly Ads Ltd,SRCH-07517,2025-02-28,2025-02,6200,Website,"£78,130.88",2025-02-01,2025-02-28,Advertising
+892,Socialreach Media Limited,SRM04351,28/02/2025,2025-02,6200,Website,39065.44,2025-02-01,2025-02-28,Advertising
+893,LINKPARTNER AFFILIATES LTD,LPA-06150,2025-02-28,2025-02,6200,Website,13021.81,2025-02-01,2025-02-28,Advertising
 894,Midshire Logistics Park Limited,MLP8433,2025-02-01,2025-02,7100,Central,115025.10,2025-02-01,2025-02-01,Monthly charge
 895,Cloudstack Software Limited,CS-07626,2025-02-01,2025-02,7110,Central,63263.80,2025-02-01,2025-02-01,Monthly charge
 896,Kestrel Grid Energy Limited,KGE002528,01/02/2025,2025-02,7120,Central,34507.53,2025-02-01,2025-02-01,Monthly charge
@@ -931,9 +931,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 930,ParcelCo Limited,PC-003743,2025-04-03,2025-03,6000,Website,104399.46,2025-03-16,2025-03-31,"Parcel delivery, website account"
 931,ParcelCo Ltd ,PC-003744,18/03/2025,2025-03,6000,Marketplace,55337.42,2025-03-01,2025-03-15,"Parcel delivery, marketplace account"
 932,ParcelCo Ltd ,PC-003745,2025-04-03,2025-03,6000,Marketplace,59888.23,2025-03-16,2025-03-31,"Parcel delivery, marketplace account"
-933,Searchly Ads,SRCH-07518,2025-03-31,2025-03,6200,Website,125613.68,2025-03-01,2025-03-31,Advertising
-934,Socialreach Media Limited,SRM04352,31/03/2025,2025-03,6200,Website,62806.84,2025-03-01,2025-03-31,Advertising
-935,Linkpartner Affiliates Ltd ,LPA-06151,31/03/2025,2025-03,6200,Website,"£20,935.61",2025-03-01,2025-03-31,Advertising
+933,Searchly Ads,SRCH-07518,2025-03-31,2025-03,6200,Website,85417.30,2025-03-01,2025-03-31,Advertising
+934,Socialreach Media Limited,SRM04352,31/03/2025,2025-03,6200,Website,42708.65,2025-03-01,2025-03-31,Advertising
+935,Linkpartner Affiliates Ltd ,LPA-06151,31/03/2025,2025-03,6200,Website,"£14,236.22",2025-03-01,2025-03-31,Advertising
 936,MIDSHIRE LOGISTICS PARK LTD,MLP8434,01/03/2025,2025-03,7100,Central,126548.26,2025-03-01,2025-03-01,Monthly charge
 937,CLOUDSTACK SOFTWARE LTD,CS-07627,2025-03-01,2025-03,6200,Central,69601.54,2025-03-01,2025-03-01,Monthly charge
 938,KESTREL GRID ENERGY LTD,KGE002529,2025-03-01,2025-03,7120,Central,37964.48,2025-03-01,2025-03-01,Monthly charge
@@ -968,9 +968,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 967,ParcelCo Ltd,PC-003747,2025-05-03,2025-04,6000,Website,"£107,029.56",2025-04-16,2025-04-30,"Parcel delivery, website account"
 968,ParcelCo Limited,PC-003748,2025-04-18,2025-04,6000,Marketplace,"£57,351.54",2025-04-01,2025-04-15,"Parcel delivery, marketplace account"
 969,PARCELCO LTD,PC-003749,2025-05-03,2025-04,6000,Marketplace,57351.56,2025-04-16,2025-04-30,"Parcel delivery, marketplace account"
-970,Searchly Ads,SRCH-07519,2025-04-30,2025-04,6200,Website,137040.03,2025-04-01,2025-04-30,Advertising
-971,Socialreach Media Ltd ,SRM04353,2025-04-30,2025-04,6200,Website,68520.01,2025-04-01,2025-04-30,Advertising
-972,LINKPARTNER AFFILIATES LTD,LPA-06152,2025-04-30,2025-04,6200,Website,22840.01,2025-04-01,2025-04-30,Advertising
+970,Searchly Ads,SRCH-07519,2025-04-30,2025-04,6200,Website,93187.22,2025-04-01,2025-04-30,Advertising
+971,Socialreach Media Ltd ,SRM04353,2025-04-30,2025-04,6200,Website,46593.61,2025-04-01,2025-04-30,Advertising
+972,LINKPARTNER AFFILIATES LTD,LPA-06152,2025-04-30,2025-04,6200,Website,15531.20,2025-04-01,2025-04-30,Advertising
 973,Midshire Logistics Park Ltd ,MLP8435,2025-04-01,2025-04,7100,Central,125661.37,2025-04-01,2025-04-01,Monthly charge
 974,Cloudstack Software Ltd ,CS-07628,2025-04-01,2025-04,7110,Central,69113.75,2025-04-01,2025-04-01,Monthly charge
 975,Kestrel Grid Energy Limited,KGE002530,2025-04-01,2025-04,7120,Central,37698.41,2025-04-01,2025-04-01,Monthly charge
@@ -1011,9 +1011,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1010,ParcelCo Ltd ,PC-003751,2025-06-03,2025-05,6000,Website,"£124,576.62",2025-05-16,2025-05-31,"Parcel delivery, website account"
 1011,ParcelCo Limited,PC-003752,2025-05-18,2025-05,6000,Marketplace,72818.20,2025-05-01,2025-05-15,"Parcel delivery, marketplace account"
 1012,ParcelCo Limited,PC-003753,03/06/2025,2025-05,6000,Marketplace,77864.94,2025-05-16,2025-05-31,"Parcel delivery, marketplace account"
-1013,SEARCHLY ADS LTD,SRCH-07520,2025-05-31,2025-05,6200,Website,164742.29,2025-05-01,2025-05-31,Advertising
-1014,Socialreach Media Limited,SRM04354,2025-05-31,2025-05,7110,Website,"£82,371.14",2025-05-01,2025-05-31,Advertising
-1015,Linkpartner Affiliates Ltd,LPA-06153,31/05/2025,2025-05,6200,Website,27457.05,2025-05-01,2025-05-31,Advertising
+1013,SEARCHLY ADS LTD,SRCH-07520,2025-05-31,2025-05,6200,Website,112024.75,2025-05-01,2025-05-31,Advertising
+1014,Socialreach Media Limited,SRM04354,2025-05-31,2025-05,7110,Website,"£56,012.38",2025-05-01,2025-05-31,Advertising
+1015,Linkpartner Affiliates Ltd,LPA-06153,31/05/2025,2025-05,6200,Website,18670.79,2025-05-01,2025-05-31,Advertising
 1016,MIDSHIRE LOGISTICS PARK LTD,MLP8436,2025-05-01,2025-05,7100,Central,"£120,925.51",2025-05-01,2025-05-01,Monthly charge
 1017,Cloudstack Software Ltd,CS-07629,01/05/2025,2025-05,7110,Central,66509.03,2025-05-01,2025-05-01,Monthly charge
 1018,Kestrel Grid Energy Ltd,KGE002531,2025-05-01,2025-05,7120,Central,"£36,277.65",2025-05-01,2025-05-01,Monthly charge
@@ -1045,9 +1045,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1044,ParcelCo Limited,PC-003755,2025-07-03,2025-06,6000,Website,143050.24,2025-06-16,2025-06-30,"Parcel delivery, website account"
 1045,ParcelCo,PC-003756,2025-06-18,2025-06,6000,Marketplace,101256.38,2025-06-01,2025-06-15,"Parcel delivery, marketplace account"
 1046,ParcelCo Ltd ,PC-003757,03/07/2025,2025-06,6000,Marketplace,"£100,926.61",2025-06-16,2025-06-30,"Parcel delivery, marketplace account"
-1047,Searchly Ads Limited,SRCH-07521,2025-06-30,2025-06,6200,Website,171745.91,2025-06-01,2025-06-30,Advertising
-1048,SOCIALREACH MEDIA LTD,SRM04355,2025-06-30,2025-06,6200,Website,85872.96,2025-06-01,2025-06-30,Advertising
-1049,Linkpartner Affiliates Ltd ,LPA-06154,2025-06-30,2025-06,6200,Website,28624.32,2025-06-01,2025-06-30,Advertising
+1047,Searchly Ads Limited,SRCH-07521,2025-06-30,2025-06,6200,Website,116787.22,2025-06-01,2025-06-30,Advertising
+1048,SOCIALREACH MEDIA LTD,SRM04355,2025-06-30,2025-06,6200,Website,58393.61,2025-06-01,2025-06-30,Advertising
+1049,Linkpartner Affiliates Ltd ,LPA-06154,2025-06-30,2025-06,6200,Website,19464.54,2025-06-01,2025-06-30,Advertising
 1050,Midshire Logistics Park Limited,MLP8437,2025-06-01,2025-06,7100,Central,118083.14,2025-06-01,2025-06-01,Monthly charge
 1051,Cloudstack Software Limited,CS-07630,2025-06-01,2025-06,7110,Central,64945.73,2025-06-01,2025-06-01,Monthly charge
 1052,KESTREL GRID ENERGY LTD,KGE002532,2025-06-01,2025-06,7120,Central,35424.94,2025-06-01,2025-06-01,Monthly charge
@@ -1084,9 +1084,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1083,ParcelCo Limited,PC-003759,03/08/2025,2025-07,6000,Website,148162.77,2025-07-16,2025-07-31,"Parcel delivery, website account"
 1084,ParcelCo Ltd,PC-003760,2025-07-18,2025-07,6000,Marketplace,"£101,472.46",2025-07-01,2025-07-15,"Parcel delivery, marketplace account"
 1085,ParcelCo Ltd ,PC-003761,03/08/2025,2025-07,6000,Marketplace,"£107,835.37",2025-07-16,2025-07-31,"Parcel delivery, marketplace account"
-1086,SEARCHLY ADS LTD,SRCH-07522,2025-07-31,2025-07,6200,Website,"£176,676.34",2025-07-01,2025-07-31,Advertising
-1087,SOCIALREACH MEDIA LTD,SRM04356,31/07/2025,2025-07,6200,Website,88338.17,2025-07-01,2025-07-31,Advertising
-1088,LINKPARTNER AFFILIATES LTD,LPA-06155,31/07/2025,2025-07,6200,Website,"£29,446.05",2025-07-01,2025-07-31,Advertising
+1086,SEARCHLY ADS LTD,SRCH-07522,2025-07-31,2025-07,6200,Website,"£120,139.91",2025-07-01,2025-07-31,Advertising
+1087,SOCIALREACH MEDIA LTD,SRM04356,31/07/2025,2025-07,6200,Website,60069.95,2025-07-01,2025-07-31,Advertising
+1088,LINKPARTNER AFFILIATES LTD,LPA-06155,31/07/2025,2025-07,6200,Website,"£20,023.32",2025-07-01,2025-07-31,Advertising
 1089,Midshire Logistics Park Ltd,MLP8438,01/07/2025,2025-07,7100,Central,123606.05,2025-07-01,2025-07-01,Monthly charge
 1090,Cloudstack Software Ltd,CS-07631,2025-07-01,2025-07,7110,Central,67983.33,2025-07-01,2025-07-01,Monthly charge
 1091,Kestrel Grid Energy Ltd,KGE002533,2025-07-01,2025-07,7120,Central,37081.81,2025-07-01,2025-07-01,Monthly charge
@@ -1119,9 +1119,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1118,ParcelCo Ltd,PC-003763,2025-09-03,2025-09,6000,Website,153883.06,2025-08-16,2025-08-31,"Parcel delivery, website account"
 1119,ParcelCo Limited,PC-003764,2025-08-18,2025-08,6000,Marketplace,"£103,736.96",2025-08-01,2025-08-15,"Parcel delivery, marketplace account"
 1120,ParcelCo Limited,PC-003765,2025-09-03,2025-08,6000,Marketplace,"£111,585.58",2025-08-16,2025-08-31,"Parcel delivery, marketplace account"
-1121,Searchly Ads Ltd ,SRCH-07523,2025-08-31,2025-08,6200,Website,"£196,159.31",2025-08-01,2025-08-31,Advertising
-1122,Socialreach Media Limited,SRM04357,2025-08-31,2025-08,7110,Website,"£98,079.65",2025-08-01,2025-08-31,Advertising
-1123,LINKPARTNER AFFILIATES LTD,LPA-06156,2025-08-31,2025-08,6200,Website,32693.22,2025-08-01,2025-08-31,Advertising
+1121,Searchly Ads Ltd ,SRCH-07523,2025-08-31,2025-08,6200,Website,"£133,388.33",2025-08-01,2025-08-31,Advertising
+1122,Socialreach Media Limited,SRM04357,2025-08-31,2025-08,7110,Website,"£66,694.16",2025-08-01,2025-08-31,Advertising
+1123,LINKPARTNER AFFILIATES LTD,LPA-06156,2025-08-31,2025-08,6200,Website,22231.39,2025-08-01,2025-08-31,Advertising
 1124,Midshire Logistics Park Limited,MLP8439,2025-08-01,2025-08,7100,Central,118877.20,2025-08-01,2025-08-01,Monthly charge
 1125,Cloudstack Software Ltd,CS-07632,2025-08-01,2025-08,7110,Central,65382.46,2025-08-01,2025-08-01,Monthly charge
 1126,Kestrel Grid Energy Ltd ,KGE002534,2025-08-01,2025-08,7120,Central,35663.16,2025-08-01,2025-08-01,Monthly charge
@@ -1154,9 +1154,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1153,ParcelCo,PC-003767,2025-10-03,2025-09,6000,Website,146090.89,2025-09-16,2025-09-30,"Parcel delivery, website account"
 1154,ParcelCo Ltd,PC-003768,2025-09-18,2025-09,6000,Marketplace,"£98,873.62",2025-09-01,2025-09-15,"Parcel delivery, marketplace account"
 1155,ParcelCo Ltd ,PC-003769,2025-10-03,2025-10,6000,Marketplace,"£97,904.37",2025-09-16,2025-09-30,"Parcel delivery, marketplace account"
-1156,Searchly Ads Ltd ,SRCH-07524,2025-09-30,2025-09,6200,Website,164937.55,2025-09-01,2025-09-30,Advertising
-1157,SOCIALREACH MEDIA LTD,SRM04358,2025-09-30,2025-09,6200,Website,82468.77,2025-09-01,2025-09-30,Advertising
-1158,Linkpartner Affiliates Limited,LPA-06157,2025-09-30,2025-09,6200,Website,27489.59,2025-09-01,2025-09-30,Advertising
+1156,Searchly Ads Ltd ,SRCH-07524,2025-09-30,2025-09,6200,Website,112157.53,2025-09-01,2025-09-30,Advertising
+1157,SOCIALREACH MEDIA LTD,SRM04358,2025-09-30,2025-09,6200,Website,56078.77,2025-09-01,2025-09-30,Advertising
+1158,Linkpartner Affiliates Limited,LPA-06157,2025-09-30,2025-09,6200,Website,18692.92,2025-09-01,2025-09-30,Advertising
 1159,Midshire Logistics Park Ltd ,MLP8440,01/09/2025,2025-09,7100,Central,122168.37,2025-09-01,2025-09-01,Monthly charge
 1160,Cloudstack Software Limited,CS-07633,2025-09-01,2025-09,7110,Central,67192.60,2025-09-01,2025-09-01,Monthly charge
 1161,Kestrel Grid Energy Limited,KGE002535,2025-09-01,2025-09,7120,Central,36650.51,2025-09-01,2025-09-01,Monthly charge
@@ -1187,9 +1187,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1186,ParcelCo,PC-003771,2025-11-03,2025-10,6000,Website,139474.43,2025-10-16,2025-10-31,"Parcel delivery, website account"
 1187,ParcelCo Ltd,PC-003772,2025-10-18,2025-10,6000,Marketplace,"£100,213.43",2025-10-01,2025-10-15,"Parcel delivery, marketplace account"
 1188,PARCELCO LTD,PC-003773,2025-11-03,2025-10,6000,Marketplace,106828.14,2025-10-16,2025-10-31,"Parcel delivery, marketplace account"
-1189,Searchly Ads Limited,SRCH-07525,2025-10-31,2025-10,6200,Website,"£158,706.85",2025-10-01,2025-10-31,Advertising
-1190,Socialreach Media,SRM04359,2025-10-31,2025-10,6200,Website,"£79,353.42",2025-10-01,2025-10-31,Advertising
-1191,LINKPARTNER AFFILIATES LTD,LPA-06158,2025-10-31,2025-10,6200,Website,"£26,451.14",2025-10-01,2025-10-31,Advertising
+1189,Searchly Ads Limited,SRCH-07525,2025-10-31,2025-10,6200,Website,"£107,920.66",2025-10-01,2025-10-31,Advertising
+1190,Socialreach Media,SRM04359,2025-10-31,2025-10,6200,Website,"£53,960.33",2025-10-01,2025-10-31,Advertising
+1191,LINKPARTNER AFFILIATES LTD,LPA-06158,2025-10-31,2025-10,6200,Website,"£17,986.77",2025-10-01,2025-10-31,Advertising
 1192,MIDSHIRE LOGISTICS PARK LTD,MLP8441,2025-10-01,2025-10,7100,Central,125929.26,2025-10-01,2025-10-01,Monthly charge
 1193,Cloudstack Software Limited,CS-07634,01/10/2025,2025-10,7110,Central,69261.09,2025-10-01,2025-10-01,Monthly charge
 1194,Kestrel Grid Energy Limited,KGE002536,2025-10-01,2025-10,7120,Central,37778.78,2025-10-01,2025-10-01,Monthly charge
@@ -1227,9 +1227,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1226,ParcelCo Limited,PC-003775,03/12/2025,2025-11,6000,Website,181722.92,2025-11-16,2025-11-30,"Parcel delivery, website account"
 1227,PARCELCO LTD,PC-003776,2025-11-18,2025-11,6000,Marketplace,"£113,223.71",2025-11-01,2025-11-15,"Parcel delivery, marketplace account"
 1228,PARCELCO LTD,PC-003777,03/12/2025,2025-11,6000,Marketplace,"£129,238.92",2025-11-16,2025-11-30,"Parcel delivery, marketplace account"
-1229,Searchly Ads Limited,SRCH-07526,2025-11-30,2025-11,6200,Website,263659.02,2025-11-01,2025-11-30,Advertising
-1230,Socialreach Media Limited,SRM04360,2025-11-30,2025-11,6200,Website,"£131,829.51",2025-11-01,2025-11-30,Advertising
-1231,Linkpartner Affiliates,LPA-06159,2025-11-30,2025-11,6200,Website,43943.17,2025-11-01,2025-11-30,Advertising
+1229,Searchly Ads Limited,SRCH-07526,2025-11-30,2025-11,6200,Website,179288.13,2025-11-01,2025-11-30,Advertising
+1230,Socialreach Media Limited,SRM04360,2025-11-30,2025-11,6200,Website,"£89,644.06",2025-11-01,2025-11-30,Advertising
+1231,Linkpartner Affiliates,LPA-06159,2025-11-30,2025-11,6200,Website,29881.36,2025-11-01,2025-11-30,Advertising
 1232,Midshire Logistics Park,MLP8442,01/11/2025,2025-11,7100,Central,118023.18,2025-11-01,2025-11-01,Monthly charge
 1233,Cloudstack Software Ltd,CS-07635,2025-11-01,2025-11,7110,Central,64912.75,2025-11-01,2025-11-01,Monthly charge
 1234,KESTREL GRID ENERGY LTD,KGE002537,2025-11-01,2025-11,7120,Central,35406.96,2025-11-01,2025-11-01,Monthly charge
@@ -1260,9 +1260,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1259,PARCELCO LTD,PC-003779,03/01/2026,2025-12,6000,Website,"£172,678.43",2025-12-16,2025-12-31,"Parcel delivery, website account"
 1260,ParcelCo Ltd ,PC-003780,2025-12-18,2025-12,6000,Marketplace,"£139,159.04",2025-12-01,2025-12-15,"Parcel delivery, marketplace account"
 1261,ParcelCo,PC-003781,03/01/2026,2025-12,6000,Marketplace,"£137,758.99",2025-12-16,2025-12-31,"Parcel delivery, marketplace account"
-1262,Searchly Ads Ltd ,SRCH-07527,2025-12-31,2025-12,6200,Website,217961.92,2025-12-01,2025-12-31,Advertising
-1263,Socialreach Media Ltd,SRM04361,2025-12-31,2025-12,6200,Website,108980.96,2025-12-01,2025-12-31,Advertising
-1264,Linkpartner Affiliates Limited,LPA-06160,31/12/2025,2025-12,6200,Website,36326.98,2025-12-01,2025-12-31,Advertising
+1262,Searchly Ads Ltd ,SRCH-07527,2025-12-31,2025-12,6200,Website,148214.10,2025-12-01,2025-12-31,Advertising
+1263,Socialreach Media Ltd,SRM04361,2025-12-31,2025-12,6200,Website,74107.05,2025-12-01,2025-12-31,Advertising
+1264,Linkpartner Affiliates Limited,LPA-06160,31/12/2025,2025-12,6200,Website,24702.35,2025-12-01,2025-12-31,Advertising
 1265,Midshire Logistics Park,MLP8443,2025-12-01,2025-12,7100,Central,120938.97,2025-12-01,2025-12-01,Monthly charge
 1266,Cloudstack Software Ltd,CS-07636,2025-12-01,2025-12,7110,Central,66516.43,2025-12-01,2025-12-01,Monthly charge
 1267,Kestrel Grid Energy,KGE002538,01/12/2025,2025-12,7120,Central,36281.69,2025-12-01,2025-12-01,Monthly charge
@@ -1300,9 +1300,9 @@ invoice_id,supplier_name,invoice_no,invoice_date,period_posted,nominal,channel,a
 1299,ParcelCo Ltd ,PC-003783,2026-02-03,2026-01,6000,Website,168306.13,2026-01-16,2026-01-31,"Parcel delivery, website account"
 1300,ParcelCo,PC-003784,2026-01-18,2026-01,6000,Marketplace,104435.80,2026-01-01,2026-01-15,"Parcel delivery, marketplace account"
 1301,ParcelCo,PC-003785,2026-02-03,2026-01,6000,Marketplace,111673.96,2026-01-16,2026-01-31,"Parcel delivery, marketplace account"
-1302,Searchly Ads Ltd ,SRCH-07528,2026-01-31,2026-01,6200,Website,163701.43,2026-01-01,2026-01-31,Advertising
-1303,SOCIALREACH MEDIA LTD,SRM04362,2026-01-31,2026-01,6200,Website,81850.72,2026-01-01,2026-01-31,Advertising
-1304,Linkpartner Affiliates Ltd,LPA-06161,2026-01-31,2026-01,6200,Website,27283.57,2026-01-01,2026-01-31,Advertising
+1302,Searchly Ads Ltd ,SRCH-07528,2026-01-31,2026-01,6200,Website,111316.97,2026-01-01,2026-01-31,Advertising
+1303,SOCIALREACH MEDIA LTD,SRM04362,2026-01-31,2026-01,6200,Website,55658.49,2026-01-01,2026-01-31,Advertising
+1304,Linkpartner Affiliates Ltd,LPA-06161,2026-01-31,2026-01,6200,Website,18552.83,2026-01-01,2026-01-31,Advertising
 1305,Midshire Logistics Park Ltd ,MLP8444,01/01/2026,2026-01,7100,Central,117388.75,2026-01-01,2026-01-01,Monthly charge
 1306,CLOUDSTACK SOFTWARE LTD,CS-07637,01/01/2026,2026-01,7110,Central,"£64,563.81",2026-01-01,2026-01-01,Monthly charge
 1307,Kestrel Grid Energy Ltd,KGE002539,01/01/2026,2026-01,7150,Central,35216.63,2026-01-01,2026-01-01,Approved recode: emergency generator repair

@@ -71,18 +71,18 @@ Budget,Website,Marketplace fees,9,Oct-25,0
 Budget,Website,Marketplace fees,10,Nov-25,0
 Budget,Website,Marketplace fees,11,Dec-25,0
 Budget,Website,Marketplace fees,12,Jan-26,0
-Budget,Website,Marketing,1,Feb-25,-189073.4
-Budget,Website,Marketing,2,Mar-25,-220585.63
-Budget,Website,Marketing,3,Apr-25,-220585.63
-Budget,Website,Marketing,4,May-25,-268626.8
-Budget,Website,Marketing,5,Jun-25,-286535.26
-Budget,Website,Marketing,6,Jul-25,-304443.71
-Budget,Website,Marketing,7,Aug-25,-322352.16
-Budget,Website,Marketing,8,Sep-25,-286535.26
-Budget,Website,Marketing,9,Oct-25,-268626.8
-Budget,Website,Marketing,10,Nov-25,-346634.56
-Budget,Website,Marketing,11,Dec-25,-362390.68
-Budget,Website,Marketing,12,Jan-26,-283610.1
+Budget,Website,Marketing,1,Feb-25,-128569.91
+Budget,Website,Marketing,2,Mar-25,-149998.23
+Budget,Website,Marketing,3,Apr-25,-149998.23
+Budget,Website,Marketing,4,May-25,-182666.23
+Budget,Website,Marketing,5,Jun-25,-194843.98
+Budget,Website,Marketing,6,Jul-25,-207021.72
+Budget,Website,Marketing,7,Aug-25,-219199.47
+Budget,Website,Marketing,8,Sep-25,-194843.98
+Budget,Website,Marketing,9,Oct-25,-182666.23
+Budget,Website,Marketing,10,Nov-25,-235711.5
+Budget,Website,Marketing,11,Dec-25,-246425.66
+Budget,Website,Marketing,12,Jan-26,-192854.87
 Budget,Marketplace,Orders,1,Feb-25,25079.37
 Budget,Marketplace,Orders,2,Mar-25,29259.27
 Budget,Marketplace,Orders,3,Apr-25,29259.27
@@ -275,18 +275,18 @@ Actual,Website,Marketplace fees,9,Oct-25,0
 Actual,Website,Marketplace fees,10,Nov-25,0
 Actual,Website,Marketplace fees,11,Dec-25,0
 Actual,Website,Marketplace fees,12,Jan-26,0
-Actual,Website,Marketing,1,Feb-25,-191497.25
-Actual,Website,Marketing,2,Mar-25,-209356.13
-Actual,Website,Marketing,3,Apr-25,-228400.05
-Actual,Website,Marketing,4,May-25,-274570.48
-Actual,Website,Marketing,5,Jun-25,-286243.19
-Actual,Website,Marketing,6,Jul-25,-294460.56
-Actual,Website,Marketing,7,Aug-25,-326932.18
-Actual,Website,Marketing,8,Sep-25,-274895.91
-Actual,Website,Marketing,9,Oct-25,-264511.41
-Actual,Website,Marketing,10,Nov-25,-439431.7
-Actual,Website,Marketing,11,Dec-25,-363269.86
-Actual,Website,Marketing,12,Jan-26,-272835.72
+Actual,Website,Marketing,1,Feb-25,-130218.13
+Actual,Website,Marketing,2,Mar-25,-142362.17
+Actual,Website,Marketing,3,Apr-25,-155312.03
+Actual,Website,Marketing,4,May-25,-186707.92
+Actual,Website,Marketing,5,Jun-25,-194645.37
+Actual,Website,Marketing,6,Jul-25,-200233.18
+Actual,Website,Marketing,7,Aug-25,-222313.88
+Actual,Website,Marketing,8,Sep-25,-186929.22
+Actual,Website,Marketing,9,Oct-25,-179867.76
+Actual,Website,Marketing,10,Nov-25,-298813.55
+Actual,Website,Marketing,11,Dec-25,-247023.5
+Actual,Website,Marketing,12,Jan-26,-185528.29
 Actual,Marketplace,Orders,1,Feb-25,24154.9
 Actual,Marketplace,Orders,2,Mar-25,27451.68
 Actual,Marketplace,Orders,3,Apr-25,28597.8
@@ -479,18 +479,18 @@ Prior year,Website,Marketplace fees,9,Oct-25,0
 Prior year,Website,Marketplace fees,10,Nov-25,0
 Prior year,Website,Marketplace fees,11,Dec-25,0
 Prior year,Website,Marketplace fees,12,Jan-26,0
-Prior year,Website,Marketing,1,Feb-25,-170121.79
-Prior year,Website,Marketing,2,Mar-25,-197340.93
-Prior year,Website,Marketing,3,Apr-25,-198335.28
-Prior year,Website,Marketing,4,May-25,-256156.26
-Prior year,Website,Marketing,5,Jun-25,-267240.34
-Prior year,Website,Marketing,6,Jul-25,-278252.97
-Prior year,Website,Marketing,7,Aug-25,-277439.18
-Prior year,Website,Marketing,8,Sep-25,-267953.92
-Prior year,Website,Marketing,9,Oct-25,-252050.12
-Prior year,Website,Marketing,10,Nov-25,-310915.21
-Prior year,Website,Marketing,11,Dec-25,-334048.75
-Prior year,Website,Marketing,12,Jan-26,-252947.09
+Prior year,Website,Marketing,1,Feb-25,-115682.82
+Prior year,Website,Marketing,2,Mar-25,-134191.84
+Prior year,Website,Marketing,3,Apr-25,-134867.99
+Prior year,Website,Marketing,4,May-25,-174186.26
+Prior year,Website,Marketing,5,Jun-25,-181723.43
+Prior year,Website,Marketing,6,Jul-25,-189212.02
+Prior year,Website,Marketing,7,Aug-25,-188658.65
+Prior year,Website,Marketing,8,Sep-25,-182208.66
+Prior year,Website,Marketing,9,Oct-25,-171394.08
+Prior year,Website,Marketing,10,Nov-25,-211422.34
+Prior year,Website,Marketing,11,Dec-25,-227153.15
+Prior year,Website,Marketing,12,Jan-26,-172004.02
 Prior year,Marketplace,Orders,1,Feb-25,22243.19
 Prior year,Marketplace,Orders,2,Mar-25,26579.73
 Prior year,Marketplace,Orders,3,Apr-25,26957.05
@@ -649,15 +649,15 @@ Actual,Central,Capex,9,Oct-25,-70000
 Actual,Central,Capex,10,Nov-25,-70000
 Actual,Central,Capex,11,Dec-25,-70000
 Actual,Central,Capex,12,Jan-26,-70000
-Actual,Central,Tax paid,1,Feb-25,-131281.56
+Actual,Central,Tax paid,1,Feb-25,-192537.6
 Actual,Central,Tax paid,2,Mar-25,0
 Actual,Central,Tax paid,3,Apr-25,0
-Actual,Central,Tax paid,4,May-25,-131281.56
+Actual,Central,Tax paid,4,May-25,-192537.6
 Actual,Central,Tax paid,5,Jun-25,0
 Actual,Central,Tax paid,6,Jul-25,0
-Actual,Central,Tax paid,7,Aug-25,-147552.4
+Actual,Central,Tax paid,7,Aug-25,-216080.48
 Actual,Central,Tax paid,8,Sep-25,0
 Actual,Central,Tax paid,9,Oct-25,0
-Actual,Central,Tax paid,10,Nov-25,-147552.4
+Actual,Central,Tax paid,10,Nov-25,-216080.48
 Actual,Central,Tax paid,11,Dec-25,0
 Actual,Central,Tax paid,12,Jan-26,0

@@ -270,7 +270,7 @@ def build_workbook(A, X, runs):
                  ("returns", "Returns", GBP, "sum"), ("net", "Net revenue", GBP, "sum"),
                  ("gm", "Gross margin %", PCT, None), ("cogs", "Cost of goods sold", GBP, "sum"),
                  ("delivery", "Delivery and fulfilment", GBP, "sum"),
-                 ("marketing" if ch == "Website" else "fees", "Marketing *" if ch == "Website" else "Marketplace fees", GBP, "sum"),
+                 ("marketing" if ch == "Website" else "fees", "Marketing" if ch == "Website" else "Marketplace fees", GBP, "sum"),
                  ("contribution", "Contribution", GBP, "sum")]
         for i, (name, *_) in enumerate(block):
             R[f"{k}:{name}"] = r + i
@@ -375,7 +375,6 @@ def build_workbook(A, X, runs):
             for c in range(1, 4 + N):
                 ws.cell(rr, c).font = Font(italic=True, color="7F7F7F")
     r = R["close"] + 2
-    ws.cell(r, 1, "* Marketing uses a placeholder assumption with no citation yet.").font = bp.F_NOTE
     ws.column_dimensions["A"].width = 34
     for c in range(2, 4 + N):
         ws.column_dimensions[col(c)].width = 9.5

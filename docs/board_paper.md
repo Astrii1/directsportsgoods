@@ -89,11 +89,11 @@ One-off costs of £370k in year one (warehouse move, platform migration, lease b
 
 | P3 scenario | Brand A renews (earn-out paid) | Brand A lost |
 |---|---:|---:|
-| Base | £4.50m | £4.70m |
-| Downside | £2.13m | £3.33m |
-| Upside | £5.06m | £5.06m |
+| Base | £5.72m | £5.72m |
+| Downside | £4.15m | £5.06m |
+| Upside | £6.10m | £6.10m |
 
-Cash stays above the minimum in every case, but in the **downside case with the earn-out paid, headroom is only £126k**. Before signing, we should either agree to pay the earn-out in two halves (February and August 2027) or put a £1m revolving credit facility in place.
+Cash stays at least £2.15m above the minimum in every case, including the downside case with the earn-out paid. The deal doesn't need extra facilities, but we should keep the loan's covenants loose enough to allow a second acquisition.
 
 ## Risks
 

@@ -24,7 +24,6 @@ MONTHS = ["Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25",
 CAL = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1]  # calendar month of each period
 CHANNELS = ["Website", "Marketplace"]
 
-PLACEHOLDER = "PLACEHOLDER: no citation yet"
 COMPANY = "Company assumption (fictional)"
 # key: (label, value, number format, source)
 A = {
@@ -40,7 +39,7 @@ A = {
     "returns":   ("Returns % of gross sales", 0.282, "0.0%", "Debenhams Group (formerly boohoo) AR 2026, p.17 (fashion-heavy, likely a ceiling)"),
     "delivery":  ("Delivery and fulfilment cost per order", 4.20, "£0.00", "Debenhams Group AR 2026: distribution costs p.94 / orders p.17"),
     "mkt_fee":   ("Marketplace fees % of marketplace net revenue", 0.15, "0.0%", "Amazon UK seller pricing, Sports and Outdoors referral fee (sell.amazon.co.uk/pricing, read 4 Oct 2026)"),
-    "marketing": ("Marketing budget % of website net revenue", 0.10, "0.0%", PLACEHOLDER),
+    "marketing": ("Marketing budget % of website net revenue", 0.068, "0.0%", "ASOS AR 2025, p.49 (6.8% of revenue; ASOS sells through its own site)"),
     "overheads": ("Other overheads per month", 300_000, "£#,##0", COMPANY),
     "dep":       ("Depreciation per month", 60_000, "£#,##0", COMPANY),
     "capex":     ("Capital expenditure per month", 70_000, "£#,##0", COMPANY),
@@ -163,7 +162,6 @@ F_NOTE = Font(italic=True, size=9, color="7F7F7F")
 F_HEAD = Font(bold=True, color="FFFFFF")
 FILL_HEAD = PatternFill("solid", fgColor=NAVY)
 FILL_INPUT = PatternFill("solid", fgColor="DDEBF7")
-FILL_FLAG = PatternFill("solid", fgColor="FFF2CC")
 INPUT, LINK = "0000FF", "008000"  # blue = hard-coded input, green = link to another sheet
 TOP = Border(top=Side(style="thin"))
 GBP = '#,##0,;(#,##0,);"-"'  # pounds shown in £k
@@ -213,8 +211,8 @@ PL = [
     ("Gross margin %", ("Gross profit", "Net revenue"), "pct"),
     ("Delivery and fulfilment", "Delivery", "line"),
     ("Marketplace fees", "Marketplace fees", "line"),
-    ("Marketing *", "Marketing", "line"),
-    ("Contribution", ["Gross profit", "Delivery and fulfilment", "Marketplace fees", "Marketing *"], "sub"),
+    ("Marketing", "Marketing", "line"),
+    ("Contribution", ["Gross profit", "Delivery and fulfilment", "Marketplace fees", "Marketing"], "sub"),
     ("Contribution %", ("Contribution", "Net revenue"), "pct"),
     ("Payroll", "Payroll", "line"),
     ("Other overheads", "Other overheads", "line"),
@@ -223,7 +221,6 @@ PL = [
     ("Depreciation", "Depreciation", "line"),
     ("Operating profit", ["EBITDA", "Depreciation"], "sub"),
 ]
-STAR_NOTE = "* Uses a placeholder assumption with no citation yet. See the Assumptions sheet."
 
 
 def write_pl_rows(ws, r0, cols, cell_formula):
@@ -272,7 +269,7 @@ def build_workbook(scen, data, commentary):
         "  Data: the monthly source data every page reads from",
         "",
         "Figures are in £k unless stated. Costs show in brackets. Positive variances are favourable.",
-        "Benchmarks are calibrated on Frasers Group plc's published accounts. Lines marked * use placeholder assumptions.",
+        "Benchmarks come from the published accounts of Frasers Group, Debenhams Group and ASOS, and Amazon UK's seller fees.",
     ]
     for i, t in enumerate(lines, start=4):
         ws.cell(i, 1, t).font = Font(bold=t == "Contents")
@@ -315,8 +312,7 @@ def build_workbook(scen, data, commentary):
         ws.cell(r, 14, f"=SUM(B{r}:M{r})" if kind != "pct" else ws.cell(r, 13).value.replace("M", "N"))
         ws.cell(r, 14).number_format = PCT if kind == "pct" else GBP
         ws.cell(r, 14).font = Font(bold=True, italic=kind == "pct")
-    ws.cell(7 + len(PL) + 1, 1, STAR_NOTE).font = F_NOTE
-    ws.cell(7 + len(PL) + 2, 1, "Payroll, overheads and depreciation are central costs, so they only appear in the Total view.").font = F_NOTE
+    ws.cell(7 + len(PL) + 1, 1, "Payroll, overheads and depreciation are central costs, so they only appear in the Total view.").font = F_NOTE
     for c in range(2, 15):
         ws.column_dimensions[ws.cell(1, c).column_letter].width = 10
     ws.freeze_panes = "B7"
@@ -336,9 +332,7 @@ def build_workbook(scen, data, commentary):
             ws.cell(r, 5, f'=IF(C{r}=0,"",D{r}/ABS(C{r}))').number_format = '+0.0%;-0.0%;"-"'
             for c in (4, 5):
                 ws.cell(r, c).font = Font(bold=kind == "sub")
-    r = 6 + len(PL) + 1
-    ws.cell(r, 1, STAR_NOTE).font = F_NOTE
-    r += 2
+    r = 6 + len(PL) + 2
     head_row(ws, r, ["By channel", "Actual", "Budget", "Variance £", "Variance %"])
     for chn in CHANNELS:
         for line_label, lines in (("net revenue", ["Gross sales", "Returns"]),
@@ -377,7 +371,6 @@ def build_workbook(scen, data, commentary):
         ws.cell(r, 14, "=" + fn('"Actual"', '">=1"')).number_format = fmt
         ws.cell(r, 15, "=" + fn('"Budget"', '">=1"') if label != "Net revenue last year (£k)" else "").number_format = fmt
         ws.cell(r, 14).font = Font(bold=True)
-    ws.cell(r + 2, 1, STAR_NOTE).font = F_NOTE
     for c in range(2, 16):
         ws.column_dimensions[ws.cell(1, c).column_letter].width = 10
     ws.freeze_panes = "B6"
@@ -425,7 +418,7 @@ def build_workbook(scen, data, commentary):
 
     # Assumptions
     ws = wb.create_sheet("Assumptions")
-    header(ws, "Assumptions", "Blue = hard-coded input. Yellow = placeholder with no citation yet. Full sources in docs/assumptions.md.")
+    header(ws, "Assumptions", "Blue = hard-coded input. Full sources in docs/assumptions.md.")
     head_row(ws, 4, ["Driver", "Value", "Source"])
     for i, (label, value, fmt, src) in enumerate(A.values()):
         r = 5 + i
@@ -433,9 +426,6 @@ def build_workbook(scen, data, commentary):
         ws.cell(r, 2, value).number_format = fmt
         ws.cell(r, 2).font = Font(color=INPUT)
         ws.cell(r, 3, src)
-        if src == PLACEHOLDER:
-            for c in (1, 2, 3):
-                ws.cell(r, c).fill = FILL_FLAG
     r = 6 + len(A)
     ws.cell(r, 1, "Monthly sales shape (share of FY budget)").font = Font(bold=True)
     ws.cell(r, 3, "Our estimate, scaled so May-Oct matches the Frasers half-year split")
@@ -518,10 +508,6 @@ def commentary(scen):
             "Why it matters: the rise is permanent, so next year's delivery bill is higher unless something changes.",
             "What to do: retender the carrier contract, test a higher free-delivery threshold, and pass part of the increase on "
             "in the delivery charge. Put the new rate in next year's budget.",
-        ]),
-        ("Caveat", [
-            "Marketing uses a placeholder assumption with no citation yet. "
-            "That line will move once a benchmark is sourced.",
         ]),
     ]
 

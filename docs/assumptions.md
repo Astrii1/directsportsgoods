@@ -1,6 +1,6 @@
 # Assumptions
 
-DirectSportsGoods and its data are fictional. Benchmarks come from **Frasers Group plc, Annual Report & Accounts 2026** (52 weeks ended 26 April 2026), and **Frasers Group plc, HY26 Results Announcement** (26 weeks ended 26 October 2025, published 4 December 2025). Online cost lines come from **Debenhams Group plc (formerly boohoo group plc), Annual Report & Financial Statements 2026** (year ended 28 February 2026). Page numbers are the printed page numbers in each report. Figures without a source are marked **PLACEHOLDER** and must not be used as fact.
+DirectSportsGoods and its data are fictional. Benchmarks come from **Frasers Group plc, Annual Report & Accounts 2026** (52 weeks ended 26 April 2026), and **Frasers Group plc, HY26 Results Announcement** (26 weeks ended 26 October 2025, published 4 December 2025). Online cost lines come from **Debenhams Group plc (formerly boohoo group plc), Annual Report & Financial Statements 2026** (year ended 28 February 2026) and **ASOS Plc, Annual Report and Accounts 2025** (year to 31 August 2025; the 2026 report was not yet published). Page numbers are the printed page numbers in each report. Anything not disclosed is marked **PLACEHOLDER** and is not used as fact.
 
 ## Benchmarks
 
@@ -17,6 +17,8 @@ DirectSportsGoods and its data are fictional. Benchmarks come from **Frasers Gro
 | Returns rate | 28.2% (FY25: 29.8%) | Debenhams Group AR 2026, p.17 | Returns as % of GMV before returns. Fashion-heavy, so likely a ceiling for sports goods. |
 | Marketplace fees | 15% of the sale price (minimum £0.25 per item) | Amazon UK seller pricing page, Sports and Outdoors referral fee, sell.amazon.co.uk/pricing, read 4 October 2026 | Amazon only. Applied to marketplace net revenue as a simplification. |
 | Delivery and fulfilment cost per order | £4.20 | Derived: distribution costs £124.6m before exceptionals (p.94) / 29.7m orders (p.17) | Orders include marketplace orders shipped by partners, so cost per own-shipped order is higher. Treat as a floor. |
+| Marketing % of revenue | 6.8% (FY24: 6.6%) | ASOS AR 2025, p.49 (£167.8m) | ASOS sells almost entirely through its own site, so the pack applies it to website sales only. |
+| Cross-check: distribution costs % of revenue | 10.6% (FY24: 11.3%) | ASOS AR 2025, p.49 | Not used directly. The pack's delivery cost comes out at about 11% of revenue, in line. |
 
 ## Not disclosed
 
@@ -25,7 +27,6 @@ DirectSportsGoods and its data are fictional. Benchmarks come from **Frasers Gro
 | Seasonality by month | PLACEHOLDER | Frasers only discloses halves (see below). The pack uses our own monthly estimate, scaled to match the half-year split. |
 | Online share of sales | PLACEHOLDER | Not disclosed. Frasers only gives Frasers Plus as 20.5% of UK online sales (p.26). |
 | Like-for-like sales growth | PLACEHOLDER | Not disclosed. |
-| Marketing costs | PLACEHOLDER | Not disclosed by Frasers or Debenhams Group (Debenhams p.54 names carriage and marketing as major costs, no figure). |
 
 ## Company assumptions (fictional, not benchmarks)
 
@@ -43,10 +44,14 @@ These are design choices for DirectSportsGoods, not claims about the market.
 | Monthly sales shape | Our estimate, scaled so May to October holds 51.7% of a May to April year (the Frasers split above) |
 | Corporation tax | 25% main rate (HMRC, from 1 April 2023), on operating profit. Paid in quarterly instalments because profits are above £1.5m (gov.uk, Corporation Tax: paying in instalments) |
 
-## Placeholders used in the pack
+## Later stages
 
-The pack runs on this until a citation is found. Every page that uses it marks the line with *.
+| Figure | Value | Source | Used in |
+|--------|-------|--------|---------|
+| National Living Wage, 21 and over | £11.44 (Apr 2024), £12.21 (Apr 2025), £12.71 (Apr 2026) | gov.uk, National Minimum Wage and National Living Wage rates | P3 warehouse payroll |
+| Corporation tax instalments | Quarterly when profits exceed £1.5m | gov.uk, Corporation Tax: paying in instalments | P1 and P3 cash |
+| Bank Rate | 3.75% | Bank of England, 17 September 2026 | P4 loan interest |
+| Holdsport acquisition | £122.9m paid; revenue £168.8m, operating profit £26.3m (4.7x operating profit) | Frasers AR 2026, p.179-180 | P4 valuation cross-check |
+| XXL acquisition | £68.6m for revenue of £474.5m, loss-making (0.14x revenue) | Frasers AR 2026, p.179-180 | P4 valuation cross-check |
 
-| Driver | Placeholder value |
-|--------|-------------------|
-| Marketing budget % of website net revenue | 10% |
+Company choices in P3 and P4 (scenario drivers, the carrier quote, customer responses, hurdle rates, the bank margin, everything about Fernbrook and Halvergate) are listed in the forecast and acquisition workbooks as fictional assumptions.

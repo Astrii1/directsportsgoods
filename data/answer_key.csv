@@ -15,16 +15,16 @@ error_id,error_type,record_type,record_id,period,amount,description
 14,duplicate_invoice,invoice,1350,2023-08,31546.64,Invoice NS008624 from Northfield Sportswear Ltd re-sent as NS008765 and entered again
 15,duplicate_invoice,invoice,1351,2025-09,58734.5,Invoice SOG-06469 from Summit Outdoor Goods Ltd re-sent as SOG-06495 and entered again
 16,duplicate_invoice,invoice,1352,2025-08,117164.3,Invoice SA01251 from Stride Apparel Ltd re-sent as SA01288 and entered again
-17,miscoded_expense,invoice,1014,2025-05,82371.14,Socialreach Media Ltd coded to 7110 instead of 6200
-18,miscoded_expense,invoice,305,2023-10,22712.88,Linkpartner Affiliates Ltd coded to 7110 instead of 6200
-19,miscoded_expense,invoice,1122,2025-08,98079.65,Socialreach Media Ltd coded to 7110 instead of 6200
+17,miscoded_expense,invoice,1014,2025-05,56012.38,Socialreach Media Ltd coded to 7110 instead of 6200
+18,miscoded_expense,invoice,305,2023-10,15444.76,Linkpartner Affiliates Ltd coded to 7110 instead of 6200
+19,miscoded_expense,invoice,1122,2025-08,66694.16,Socialreach Media Ltd coded to 7110 instead of 6200
 20,miscoded_expense,invoice,937,2025-03,69601.54,Cloudstack Software Ltd coded to 6200 instead of 7110
-21,miscoded_expense,invoice,303,2023-10,136277.25,Searchly Ads Ltd coded to 7110 instead of 6200
+21,miscoded_expense,invoice,303,2023-10,92668.53,Searchly Ads Ltd coded to 7110 instead of 6200
 22,miscoded_expense,invoice,165,2023-06,70000,Fulcrum Automation Ltd coded to 7150 instead of 1500
 23,miscoded_expense,invoice,978,2025-04,70000,Fulcrum Automation Ltd coded to 7150 instead of 1500
 24,miscoded_expense,invoice,307,2023-10,64110.44,Cloudstack Software Ltd coded to 6200 instead of 7110
 25,miscoded_expense,invoice,1308,2026-01,46955.5,Ashcombe & Rowe LLP coded to 6200 instead of 7130
-26,miscoded_expense,invoice,269,2023-09,24701.64,Linkpartner Affiliates Ltd coded to 7110 instead of 6200
+26,miscoded_expense,invoice,269,2023-09,16797.11,Linkpartner Affiliates Ltd coded to 7110 instead of 6200
 27,not_an_error,invoice,1307,2026-01,35216.63,"Energy supplier invoice for a generator repair, recoded to repairs with an approval note"
 28,not_an_error,invoice,487,2024-03,35583.53,"Energy supplier invoice for a generator repair, recoded to repairs with an approval note"
 29,not_an_error,invoice,1269,2025-12,30234.74,"Insurer invoice for broker advice, correctly coded to professional fees but with no approval note"

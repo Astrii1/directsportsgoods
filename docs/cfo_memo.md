@@ -8,7 +8,7 @@
 
 Our carrier raised prices in September. Delivery now costs **£4.72 an order**, against £4.20 in the budget, and the rise is permanent. At the volumes in our base forecast, that is £700k more delivery cost in FY27 than the old rate would have meant.
 
-The base forecast has FY27 operating profit of **£2,823k**, against £2,361k in FY26. The range is £292k in the downside to £4,496k in the upside. Cash stays positive in every scenario: the lowest month-end over the next 18 months is £4,710k in the downside.
+The base forecast has FY27 operating profit of **£3,995k**, against £3,457k in FY26. The range is £1,339k in the downside to £5,753k in the upside. Cash stays positive in every scenario: the lowest month-end over the next 18 months is £5,695k in the downside.
 
 ## Options
 
@@ -38,4 +38,4 @@ Cash impact against doing nothing, before tax and working capital.
 
 - If the new carrier can't guarantee peak capacity in writing, stay put and push the current carrier for a rate review instead.
 - If the website price test loses more than 5.3% of orders, reverse it and keep prices where they are.
-- If the downside starts to play out (operating profit falls to £292k), the carrier switch matters even more: a fixed quote is worth £640k in that case.
+- If the downside starts to play out (operating profit falls to £1,339k), the carrier switch matters even more: a fixed quote is worth £640k in that case.
