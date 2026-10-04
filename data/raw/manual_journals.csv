@@ -1,0 +1,43 @@
+period,journal,debit,credit,amount,channel,ref
+2023-02,Depreciation,7500,1510,60000,Central,
+2023-03,Depreciation,7500,1510,60000,Central,
+2023-04,Depreciation,7500,1510,60000,Central,
+2023-05,Depreciation,7500,1510,60000,Central,
+2023-06,Depreciation,7500,1510,60000,Central,
+2023-07,Depreciation,7500,1510,60000,Central,
+2023-08,Depreciation,7500,1510,60000,Central,
+2023-09,Depreciation,7500,1510,60000,Central,
+2023-10,Depreciation,7500,1510,60000,Central,
+2023-11,Depreciation,7500,1510,60000,Central,
+2023-12,Depreciation,7500,1510,60000,Central,
+2024-01,Depreciation,7500,1510,60000,Central,
+2024-02,Depreciation,7500,1510,60000,Central,
+2024-03,Depreciation,7500,1510,60000,Central,
+2024-04,Depreciation,7500,1510,60000,Central,
+2024-05,Depreciation,7500,1510,60000,Central,
+2024-06,Depreciation,7500,1510,60000,Central,
+2024-07,Depreciation,7500,1510,60000,Central,
+2024-08,Depreciation,7500,1510,60000,Central,
+2024-09,Depreciation,7500,1510,60000,Central,
+2024-10,Depreciation,7500,1510,60000,Central,
+2024-11,Depreciation,7500,1510,60000,Central,
+2024-12,Depreciation,7500,1510,60000,Central,
+2025-01,Depreciation,7500,1510,60000,Central,
+2025-02,Depreciation,7500,1510,60000,Central,
+2025-03,Depreciation,7500,1510,60000,Central,
+2025-04,Depreciation,7500,1510,60000,Central,
+2025-05,Depreciation,7500,1510,60000,Central,
+2025-06,Depreciation,7500,1510,60000,Central,
+2025-07,Depreciation,7500,1510,60000,Central,
+2025-08,Depreciation,7500,1510,60000,Central,
+2025-09,Depreciation,7500,1510,60000,Central,
+2025-10,Depreciation,7500,1510,60000,Central,
+2025-11,Depreciation,7500,1510,60000,Central,
+2025-12,Depreciation,7500,1510,60000,Central,
+2026-01,Depreciation,7500,1510,60000,Central,
+2023-10,Delivery accrual,6000,2100,63796.11,Marketplace,PC-003677
+2023-11,Delivery accrual reversal,2100,6000,63796.11,Marketplace,PC-003677
+2023-04,Delivery accrual,6000,2100,50546.09,Marketplace,PC-003653
+2023-05,Delivery accrual reversal,2100,6000,50546.09,Marketplace,PC-003653
+2024-11,Delivery accrual,6000,2100,148829.96,Website,PC-003727
+2024-12,Delivery accrual reversal,2100,6000,148829.96,Website,PC-003727

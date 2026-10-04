@@ -1,0 +1,18 @@
+supplier_id,name,default_nominal,terms_days
+S01,Apex Athletic Supply Ltd,1200,60
+S02,Northfield Sportswear Ltd,1200,60
+S03,Peak Footwear Distribution Ltd,1200,60
+S04,Velocity Equipment Co Ltd,1200,60
+S05,Stride Apparel Ltd,1200,45
+S06,Summit Outdoor Goods Ltd,1200,45
+S10,ParcelCo Ltd,6000,14
+S20,Searchly Ads Ltd,6200,30
+S21,Socialreach Media Ltd,6200,30
+S22,Linkpartner Affiliates Ltd,6200,30
+S30,Midshire Logistics Park Ltd,7100,30
+S31,Cloudstack Software Ltd,7110,30
+S32,Kestrel Grid Energy Ltd,7120,30
+S33,Ashcombe & Rowe LLP,7130,30
+S34,Harbourline Insurance Ltd,7140,30
+S40,Fulcrum Automation Ltd,1500,30
+S41,Brightdesk IT Ltd,1500,30

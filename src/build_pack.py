@@ -39,7 +39,7 @@ A = {
     "pay_days":  ("Trade and other payables days", 118, "0", "Frasers AR 2026, p.120 and p.118"),
     "returns":   ("Returns % of gross sales", 0.282, "0.0%", "Debenhams Group (formerly boohoo) AR 2026, p.17 (fashion-heavy, likely a ceiling)"),
     "delivery":  ("Delivery and fulfilment cost per order", 4.20, "£0.00", "Debenhams Group AR 2026: distribution costs p.94 / orders p.17"),
-    "mkt_fee":   ("Marketplace fees % of marketplace net revenue", 0.15, "0.0%", PLACEHOLDER),
+    "mkt_fee":   ("Marketplace fees % of marketplace net revenue", 0.15, "0.0%", "Amazon UK seller pricing, Sports and Outdoors referral fee (sell.amazon.co.uk/pricing, read 4 Oct 2026)"),
     "marketing": ("Marketing budget % of website net revenue", 0.10, "0.0%", PLACEHOLDER),
     "overheads": ("Other overheads per month", 300_000, "£#,##0", COMPANY),
     "dep":       ("Depreciation per month", 60_000, "£#,##0", COMPANY),
@@ -162,6 +162,7 @@ F_HEAD = Font(bold=True, color="FFFFFF")
 FILL_HEAD = PatternFill("solid", fgColor=NAVY)
 FILL_INPUT = PatternFill("solid", fgColor="DDEBF7")
 FILL_FLAG = PatternFill("solid", fgColor="FFF2CC")
+INPUT, LINK = "0000FF", "008000"  # blue = hard-coded input, green = link to another sheet
 TOP = Border(top=Side(style="thin"))
 GBP = '#,##0,;(#,##0,);"-"'  # pounds shown in £k
 PCT = '0.0%;-0.0%;"-"'
@@ -209,9 +210,9 @@ PL = [
     ("Gross profit", ["Net revenue", "Cost of goods sold"], "sub"),
     ("Gross margin %", ("Gross profit", "Net revenue"), "pct"),
     ("Delivery and fulfilment", "Delivery", "line"),
-    ("Marketplace fees *", "Marketplace fees", "line"),
+    ("Marketplace fees", "Marketplace fees", "line"),
     ("Marketing *", "Marketing", "line"),
-    ("Contribution", ["Gross profit", "Delivery and fulfilment", "Marketplace fees *", "Marketing *"], "sub"),
+    ("Contribution", ["Gross profit", "Delivery and fulfilment", "Marketplace fees", "Marketing *"], "sub"),
     ("Contribution %", ("Contribution", "Net revenue"), "pct"),
     ("Payroll", "Payroll", "line"),
     ("Other overheads", "Other overheads", "line"),
@@ -285,7 +286,7 @@ def build_workbook(scen, data, commentary):
         for para in paras:
             c = ws.cell(r, 1, para)
             c.alignment = Alignment(wrap_text=True, vertical="top")
-            ws.row_dimensions[r].height = 15 * (len(para) // 105 + 1)
+            ws.row_dimensions[r].height = 15 * (len(para) // 118 + 1)
             r += 1
         r += 1
 
@@ -296,7 +297,7 @@ def build_workbook(scen, data, commentary):
     ws["A4"], ws["C4"] = "Scenario", "Actual"
     for ref in ("C3", "C4"):
         ws[ref].fill = FILL_INPUT
-        ws[ref].font = Font(bold=True)
+        ws[ref].font = Font(bold=True, color=INPUT)
     dv_ch = DataValidation(type="list", formula1='"Total,Website,Marketplace"')
     dv_sc = DataValidation(type="list", formula1='"Actual,Budget,Prior year"')
     ws.add_data_validation(dv_ch)
@@ -415,29 +416,31 @@ def build_workbook(scen, data, commentary):
             ws.cell(r, 14, f"=SUM(B{r}:M{r})")
         style_row(ws, r, 14, GBP, bold=name in ("Operating cash flow", "Closing cash", "Opening cash"),
                   border=name in ("Operating cash flow", "Net cash flow", "Closing cash"))
+    ws.cell(R["Opening cash"], 2).font = Font(bold=True, color=LINK)
     for c in range(2, 15):
         ws.column_dimensions[ws.cell(1, c).column_letter].width = 10
     ws.freeze_panes = "B6"
 
     # Assumptions
     ws = wb.create_sheet("Assumptions")
-    header(ws, "Assumptions", "Blue = fictional company choice. Yellow = placeholder with no citation yet. Full sources in docs/assumptions.md.")
+    header(ws, "Assumptions", "Blue = hard-coded input. Yellow = placeholder with no citation yet. Full sources in docs/assumptions.md.")
     head_row(ws, 4, ["Driver", "Value", "Source"])
     for i, (label, value, fmt, src) in enumerate(A.values()):
         r = 5 + i
         ws.cell(r, 1, label)
         ws.cell(r, 2, value).number_format = fmt
+        ws.cell(r, 2).font = Font(color=INPUT)
         ws.cell(r, 3, src)
-        fill = FILL_FLAG if src == PLACEHOLDER else FILL_INPUT if src == COMPANY else None
-        if fill:
+        if src == PLACEHOLDER:
             for c in (1, 2, 3):
-                ws.cell(r, c).fill = fill
+                ws.cell(r, c).fill = FILL_FLAG
     r = 6 + len(A)
     ws.cell(r, 1, "Monthly sales shape (share of FY budget)").font = Font(bold=True)
     ws.cell(r, 3, "Our estimate, scaled so May-Oct matches the Frasers half-year split")
     for p in range(12):
         ws.cell(r + 1 + p, 1, MONTHS[p])
         ws.cell(r + 1 + p, 2, round(W[p], 4)).number_format = "0.0%"
+        ws.cell(r + 1 + p, 2).font = Font(color=INPUT)
     ws.column_dimensions["A"].width = 46
     ws.column_dimensions["B"].width = 14
     ws.column_dimensions["C"].width = 70
@@ -515,8 +518,8 @@ def commentary(scen):
             "in the delivery charge. Put the new rate in next year's budget.",
         ]),
         ("Caveat", [
-            "Marketplace fees and marketing use placeholder assumptions with no citation yet. "
-            "Those lines will move once benchmarks are sourced.",
+            "Marketing uses a placeholder assumption with no citation yet. "
+            "That line will move once a benchmark is sourced.",
         ]),
     ]
 

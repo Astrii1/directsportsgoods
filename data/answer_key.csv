@@ -1,0 +1,46 @@
+error_id,error_type,record_type,record_id,period,amount,description
+1,duplicate_invoice,invoice,1337,2025-10,93796.3,Invoice PFD/04921 from Peak Footwear Distribution Ltd entered twice
+2,duplicate_invoice,invoice,1338,2023-03,56375.15,Invoice SOG-06372 from Summit Outdoor Goods Ltd entered twice
+3,duplicate_invoice,invoice,1339,2023-04,31911.02,Invoice SOG-06377 from Summit Outdoor Goods Ltd entered twice
+4,duplicate_invoice,invoice,1340,2023-12,123253.81,Invoice PFD/04840 from Peak Footwear Distribution Ltd entered twice
+5,duplicate_invoice,invoice,1341,2025-01,92260.64,Invoice SA01220 from Stride Apparel Ltd entered twice
+6,duplicate_invoice,invoice,1342,2024-07,137845.84,Invoice PFD/04867 from Peak Footwear Distribution Ltd entered twice
+7,duplicate_invoice,invoice,1343,2025-04,68649.88,Invoice PFD/04903 from Peak Footwear Distribution Ltd entered twice
+8,duplicate_invoice,invoice,1344,2023-03,60938.93,Invoice APX-01891 from Apex Athletic Supply Ltd entered twice
+9,duplicate_invoice,invoice,1345,2023-03,48796.34,Invoice SA01115 from Stride Apparel Ltd entered twice
+10,duplicate_invoice,invoice,1346,2024-03,83905.07,Invoice VE-01696 from Velocity Equipment Co Ltd entered twice
+11,duplicate_invoice,invoice,1347,2025-04,55899.34,"Invoice NS008729 from Northfield Sportswear Ltd entered twice, the second time as £55,899.34"
+12,duplicate_invoice,invoice,1348,2025-02,46050.24,"Invoice AR-4291 from Ashcombe & Rowe LLP entered twice, the second time as £46,050.24"
+13,duplicate_invoice,invoice,1349,2024-04,74277.53,"Invoice NS008671 from Northfield Sportswear Ltd entered twice, the second time as £74,277.53"
+14,duplicate_invoice,invoice,1350,2023-08,31546.64,Invoice NS008624 from Northfield Sportswear Ltd re-sent as NS008765 and entered again
+15,duplicate_invoice,invoice,1351,2025-09,58734.5,Invoice SOG-06469 from Summit Outdoor Goods Ltd re-sent as SOG-06495 and entered again
+16,duplicate_invoice,invoice,1352,2025-08,117164.3,Invoice SA01251 from Stride Apparel Ltd re-sent as SA01288 and entered again
+17,miscoded_expense,invoice,1014,2025-05,82371.14,Socialreach Media Ltd coded to 7110 instead of 6200
+18,miscoded_expense,invoice,305,2023-10,22712.88,Linkpartner Affiliates Ltd coded to 7110 instead of 6200
+19,miscoded_expense,invoice,1122,2025-08,98079.65,Socialreach Media Ltd coded to 7110 instead of 6200
+20,miscoded_expense,invoice,937,2025-03,69601.54,Cloudstack Software Ltd coded to 6200 instead of 7110
+21,miscoded_expense,invoice,303,2023-10,136277.25,Searchly Ads Ltd coded to 7110 instead of 6200
+22,miscoded_expense,invoice,165,2023-06,70000,Fulcrum Automation Ltd coded to 7150 instead of 1500
+23,miscoded_expense,invoice,978,2025-04,70000,Fulcrum Automation Ltd coded to 7150 instead of 1500
+24,miscoded_expense,invoice,307,2023-10,64110.44,Cloudstack Software Ltd coded to 6200 instead of 7110
+25,miscoded_expense,invoice,1308,2026-01,46955.5,Ashcombe & Rowe LLP coded to 6200 instead of 7130
+26,miscoded_expense,invoice,269,2023-09,24701.64,Linkpartner Affiliates Ltd coded to 7110 instead of 6200
+27,not_an_error,invoice,1307,2026-01,35216.63,"Energy supplier invoice for a generator repair, recoded to repairs with an approval note"
+28,not_an_error,invoice,487,2024-03,35583.53,"Energy supplier invoice for a generator repair, recoded to repairs with an approval note"
+29,not_an_error,invoice,1269,2025-12,30234.74,"Insurer invoice for broker advice, correctly coded to professional fees but with no approval note"
+30,missed_accrual,invoice,1155,2025-09,97904.37,"Delivery for 16 Sep to 30 Sep 2025 not accrued, posted in 2025-10"
+31,missed_accrual,invoice,629,2024-07,74354.86,"Delivery for 16 Jul to 31 Jul 2024 not accrued, posted in 2024-08"
+32,missed_accrual,invoice,1118,2025-08,153883.06,"Delivery for 16 Aug to 31 Aug 2025 not accrued, posted in 2025-09"
+33,missed_accrual,invoice,118,2023-05,62869.07,"Delivery for 16 May to 31 May 2023 not accrued, posted in 2023-06"
+34,missed_accrual,invoice,736,2024-10,123539.81,"Delivery for 16 Oct to 31 Oct 2024 not accrued, posted in 2024-11"
+35,missed_accrual,invoice,79,2023-04,83763.15,"Delivery for 16 Apr to 30 Apr 2023 not accrued, posted in 2023-05"
+36,missed_accrual,invoice,116,2023-05,103760.38,"Delivery for 16 May to 31 May 2023 not accrued, posted in 2023-06"
+37,missed_accrual,invoice,773,2024-11,94008.93,"Delivery for 16 Nov to 30 Nov 2024 not accrued, posted in 2024-12"
+38,not_an_error,invoice,302,2023-10,63796.11,"Delivery invoice posted in 2023-11, but accrued properly in 2023-10"
+39,not_an_error,invoice,81,2023-04,50546.09,"Delivery invoice posted in 2023-05, but accrued properly in 2023-04"
+40,not_an_error,invoice,771,2024-11,148829.96,"Delivery invoice posted in 2024-12, but accrued properly in 2024-11"
+41,fee_overcharge,marketplace_line,804,2025-04,1794.08,"Marketplace charged £1,794.08 above the contracted rate on 14 Apr 2025 (S-0058)"
+42,fee_overcharge,marketplace_line,509,2024-06,2237.26,"Marketplace charged £2,237.26 above the contracted rate on 23 Jun 2024 (S-0037)"
+43,fee_overcharge,marketplace_line,625,2024-10,818.37,Marketplace charged £818.37 above the contracted rate on 17 Oct 2024 (S-0045)
+44,fee_overcharge,marketplace_line,180,2023-07,2254.53,"Marketplace charged £2,254.53 above the contracted rate on 30 Jul 2023 (S-0013)"
+45,fee_overcharge,marketplace_line,612,2024-10,985.81,Marketplace charged £985.81 above the contracted rate on 04 Oct 2024 (S-0044)

@@ -3,3 +3,6 @@
 
 # Python
 __pycache__/
+
+# Rebuilt by src/close.py
+data/ledger.db
