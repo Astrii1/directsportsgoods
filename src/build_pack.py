@@ -140,8 +140,10 @@ def build_data():
         ("Central", "Inventory"): [V["inv_days"] / 365 * sum(fwd[p:p + 12]) for p in range(13)],
         ("Central", "Trade payables"): [V["pay_days"] / 365 * sum(back[p:p + 12]) for p in range(13)],
         ("Central", "Capex"): [None] + [-V["capex"]] * 12,
-        # Medium-sized companies pay corporation tax 9 months and 1 day after year end: FY25 tax lands in Nov-25.
-        ("Central", "Tax paid"): [None] + [-V["tax"] * op_profit(scen["Prior year"]) if CAL[p] == 11 else 0 for p in range(12)],
+        # Profits above £1.5m mean quarterly instalments (gov.uk): FY25's last two land in Feb-25 and May-25,
+        # FY26's first two in Aug-25 and Nov-25.
+        ("Central", "Tax paid"): [None] + [-V["tax"] * op_profit(scen["Prior year" if CAL[p] in (2, 5) else "Actual"]) / 4
+                                           if CAL[p] in (2, 5, 8, 11) else 0 for p in range(12)],
     }
     out = []
     for s, rows in scen.items():

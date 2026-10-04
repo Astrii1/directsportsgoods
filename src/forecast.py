@@ -80,7 +80,8 @@ def calibrate():
         "capex_m": (bp.V["capex"], "Capital expenditure per month", "£#,##0", "Company assumption"),
         "dep_m": (bp.V["dep"], "Depreciation per month", "£#,##0", "Company assumption"),
         "tax_rate": (bp.V["tax"], "Corporation tax rate", "0%", "HMRC main rate"),
-        "fy26_profit": (round(bp.op_profit(a), 2), "FY26 operating profit (tax paid Nov-26)", "£#,##0", "P1 pack"),
+        "fy26_profit": (round(bp.op_profit(a), 2), "FY26 operating profit (last two tax instalments due Feb-26 and May-26)", "£#,##0", "P1 pack"),
+        "large_threshold": (1_500_000, "Profit above which tax is paid in quarterly instalments", "£#,##0", "gov.uk, Corporation Tax: paying in instalments"),
         "cash_open": (round(cash, 2), "Cash at 31 January 2026", "£#,##0", "P1 pack, Cash page"),
     }
     return A, fixed
@@ -121,10 +122,14 @@ def forecast(A, X, d):
     trail = [sum(cogs_all[k:k + 12]) for k in range(N + 1)]  # k=0 is the opening position
     inv = [X["inv_days"] / 365 * t for t in trail]
     pay = [X["pay_days"] / 365 * t for t in trail]
+    # Quarterly instalments: FY26's last two in Feb-26 and May-26, FY27's in Aug-26, Nov-26, Feb-27 and May-27.
+    # A year with profit under £1.5m pays in one go nine months after year end, outside this forecast.
+    fy27 = sum(op[:12])
+    fy27_inst = -X["tax_rate"] * fy27 / 4 if fy27 > X["large_threshold"] else 0
+    tax = [-X["tax_rate"] * X["fy26_profit"] / 4 if c in (0, 3) else fy27_inst if c in (6, 9, 12, 15) else 0 for c in range(N)]
     cash, close = X["cash_open"], []
     for c in range(N):
-        tax = -X["fy26_profit"] * X["tax_rate"] if c == 9 else 0
-        cash += ebitda[c] + inv[c] - inv[c + 1] + pay[c + 1] - pay[c] - X["capex_m"] + tax
+        cash += ebitda[c] + inv[c] - inv[c + 1] + pay[c + 1] - pay[c] - X["capex_m"] + tax[c]
         close.append(cash)
     return {**{f"{ch}:{k}": v for ch in CH for k, v in F[ch].items()},
             "orders": tot, "nlw": nlw, "hours": hours, "warehouse": wh, "salaried": sal, "overheads": oh,
@@ -350,7 +355,9 @@ def build_workbook(A, X, runs):
                 "d_pay": (f"={L}{R['pay']}-pay_days/365*{opening_trail}" if c == 0 else f"={L}{R['pay']}-{prev}{R['pay']}"),
                 "ocf": f"={L}{R['ebitda_c']}+{L}{R['d_inv']}+{L}{R['d_pay']}",
                 "capex": "=-capex_m",
-                "tax": "=-fy26_profit*tax_rate" if c == 9 else 0,
+                "tax": ("=-tax_rate*fy26_profit/4" if c in (0, 3) else
+                        f"=IF(SUM($B${R['op']}:$M${R['op']})>large_threshold,-tax_rate*SUM($B${R['op']}:$M${R['op']})/4,0)"
+                        if c in (6, 9, 12, 15) else 0),
                 "close": f"={L}{R['open']}+{L}{R['ocf']}+{L}{R['capex']}+{L}{R['tax']}",
             }[name]
             ws.cell(rr, 2 + c, f)

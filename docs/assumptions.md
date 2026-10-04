@@ -41,7 +41,7 @@ These are design choices for DirectSportsGoods, not claims about the market.
 | Opening cash, 1 Feb 2025 | £4.0m |
 | Planned growth on FY25 | 10% |
 | Monthly sales shape | Our estimate, scaled so May to October holds 51.7% of a May to April year (the Frasers split above) |
-| Corporation tax | 25% main rate (HMRC, from 1 April 2023), paid 9 months and 1 day after year end |
+| Corporation tax | 25% main rate (HMRC, from 1 April 2023), on operating profit. Paid in quarterly instalments because profits are above £1.5m (gov.uk, Corporation Tax: paying in instalments) |
 
 ## Placeholders used in the pack
 

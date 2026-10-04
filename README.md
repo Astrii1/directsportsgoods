@@ -35,7 +35,7 @@ Growth came from the lower-margin channel, and each order cost more to deliver.
 2. **Website sales were £854k behind**, £619k of it over Black Friday and Christmas, even with an extra £93k of paid search in November. Website contribution fell £779k, more than the whole profit gap.
 3. **Delivery cost £497k more than budget.** £319k of that is a carrier price rise in September, which carries into next year.
 
-The commentary page sets out what to do about each one. Cash rose from £4.0m to £5.5m over the year, after paying last year's corporation tax in November.
+The commentary page sets out what to do about each one. Cash rose from £4.0m to £5.5m over the year, after £558k of corporation tax paid in quarterly instalments.
 
 ## P2: Month-end close
 
@@ -73,7 +73,7 @@ The carrier's September price rise is permanent. What does the next 18 months lo
 
 ### Result
 
-- Base case FY27 operating profit is £2.8m, ranging from £0.3m in the downside to £4.5m in the upside. Cash stays above £4.4m throughout.
+- Base case FY27 operating profit is £2.8m, ranging from £0.3m in the downside to £4.5m in the upside. Cash stays above £4.7m throughout.
 - The memo recommends switching carrier now (an estimated £320k over 18 months, paying back by September 2026, and worth £640k in the downside), testing the price rise on the website first, and dropping the delivery charge, which roughly breaks even in every scenario.
 
 Read the memo: [`docs/cfo_memo.md`](docs/cfo_memo.md).

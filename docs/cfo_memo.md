@@ -8,7 +8,7 @@
 
 Our carrier raised prices in September. Delivery now costs **£4.72 an order**, against £4.20 in the budget, and the rise is permanent. At the volumes in our base forecast, that is £700k more delivery cost in FY27 than the old rate would have meant.
 
-The base forecast has FY27 operating profit of **£2,823k**, against £2,361k in FY26. The range is £292k in the downside to £4,496k in the upside. Cash stays positive in every scenario: the lowest month-end over the next 18 months is £4,448k in the downside.
+The base forecast has FY27 operating profit of **£2,823k**, against £2,361k in FY26. The range is £292k in the downside to £4,496k in the upside. Cash stays positive in every scenario: the lowest month-end over the next 18 months is £4,710k in the downside.
 
 ## Options
 
