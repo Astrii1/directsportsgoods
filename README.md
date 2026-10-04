@@ -2,14 +2,14 @@
 
 > **DirectSportsGoods is a fictional company and every figure in this repo is made up.** The ratios behind it are calibrated on the published accounts of Frasers Group and Debenhams Group (formerly boohoo), with page references in [`docs/assumptions.md`](docs/assumptions.md).
 
-A finance function for a made-up UK online sports retailer with about £48m of sales, built in stages. Each stage works on its own.
+A finance function for a made-up UK online sports retailer with about £48m of sales, built in four stages. Each stage works on its own.
 
 | Stage | What it shows | Status |
 |-------|---------------|--------|
 | P1 | Management pack: P&L, budget vs actual, KPIs, cash and variance commentary | Done |
 | P2 | Month-end close: messy raw data, a general ledger, checks that catch planted errors | Done |
 | P3 | Rolling 18-month forecast with scenarios, and a two-page CFO memo | Done |
-| P4 | Business case for a major investment | Next |
+| P4 | First acquisition: two targets through due diligence, one rejected, one bought | Done |
 
 ![Budget vs actual page from the pack](docs/budget-vs-actual.png)
 
@@ -78,6 +78,27 @@ The carrier's September price rise is permanent. What does the next 18 months lo
 
 Read the memo: [`docs/cfo_memo.md`](docs/cfo_memo.md).
 
+## P4: First acquisition
+
+### Problem
+
+Two founder-owned specialists are for sale: Fernbrook Racquets (racket sports, heavy in padel) and Halvergate Hockey. Both look good at first glance. Which one, if either, and at what price?
+
+### Approach
+
+- Built a data room for each: management accounts, payroll, stock ageing, customer cohorts, creditor ageing, contracts and, for Fernbrook, EU sales. Each hides problems a real data room might.
+- Wrote the due diligence to find those problems from the files, then costed each one.
+- Valued each target with discounted cash flows under several cases, cross-checked against what Frasers Group paid for Holdsport (4.7x operating profit, Frasers Annual Report 2026).
+- Costed synergies, structured an offer around the risks, and tested the funding against the P3 forecast scenarios.
+
+### Result
+
+- **Halvergate: walk away.** 41% of its sales go to tender in November, £240k of rebates rest on the founder's relationships, and its warehouse is leased from the founder's family at twice market rent for ten years. It is worth £3.2m to us at best, against the founder's £4.5m floor.
+- **Fernbrook: buy, for half the asking price upfront.** Diligence cut EBITDA from £950k to £684k and found stretched suppliers, old stock, overstated customer numbers, unpaid German VAT and one brand worth 35% of sales. The offer is £3.25m upfront plus up to £1.25m if that brand renews, with a working capital adjustment and a VAT escrow, against an asking price of £6.5m.
+- Cash stays above the board's £2m minimum in every scenario, but only just in the downside if the earn-out is paid, so the paper asks for that risk to be covered before signing.
+
+Read the board paper: [`docs/board_paper.md`](docs/board_paper.md).
+
 ## What I'd change
 
 - Marketing spend is still a placeholder, because neither company discloses it. It's marked * in the pack and will move once I find a source.
@@ -87,6 +108,7 @@ Read the memo: [`docs/cfo_memo.md`](docs/cfo_memo.md).
 - The checks are rules. On real data I'd add a supplier statement reconciliation, which would have caught both misses directly.
 - The forecast rolls each month forward from the same month last year, so FY26's one-offs (the weak website peak, January clearance) carry into FY27. A real forecast would normalise them first.
 - The option assumptions (the carrier quote, how many customers walk away) are company assumptions. The break-even points show how far they can be wrong before the answer changes.
+- The acquisition model leaves out deferred tax, the accounting for goodwill, and the target's own working capital swings after completion. The 50% chance of losing Brand A is a judgement, and the board paper shows both outcomes rather than relying on it.
 
 ## In this repo
 
@@ -96,6 +118,9 @@ Read the memo: [`docs/cfo_memo.md`](docs/cfo_memo.md).
 | [`docs/close_report.md`](docs/close_report.md) | Month-end close results |
 | [`pack/DirectSportsGoods_forecast.xlsx`](pack/DirectSportsGoods_forecast.xlsx) | Rolling forecast, scenarios and options |
 | [`docs/cfo_memo.md`](docs/cfo_memo.md) | CFO memo on delivery costs |
+| [`pack/DirectSportsGoods_acquisition.xlsx`](pack/DirectSportsGoods_acquisition.xlsx) | Acquisition model: diligence, valuation, synergies, funding |
+| [`docs/board_paper.md`](docs/board_paper.md) | Board paper on the acquisition |
+| [`data/dataroom/`](data/dataroom/) | The two targets' data rooms |
 | [`docs/assumptions.md`](docs/assumptions.md) | Every benchmark and its source |
 | [`data/raw/`](data/raw/) | Raw exports the close starts from |
 | [`data/answer_key.csv`](data/answer_key.csv) | Every planted error and decoy |
@@ -108,4 +133,5 @@ python src/build_pack.py
 python src/generate.py
 python src/close.py
 python src/forecast.py
+python src/acquisition.py
 ```
