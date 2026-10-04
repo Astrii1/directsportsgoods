@@ -1,2 +1,5 @@
 # Excel lock files
 ~$*
+
+# Python
+__pycache__/
