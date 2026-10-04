@@ -8,8 +8,8 @@ A finance function for a made-up UK online sports retailer with about £48m of s
 |-------|---------------|--------|
 | P1 | Management pack: P&L, budget vs actual, KPIs, cash and variance commentary | Done |
 | P2 | Month-end close: messy raw data, a general ledger, checks that catch planted errors | Done |
-| P3 | Rolling forecast with scenarios, and a two-page CFO memo | Next |
-| P4 | Business case for a major investment | Planned |
+| P3 | Rolling 18-month forecast with scenarios, and a two-page CFO memo | Done |
+| P4 | Business case for a major investment | Next |
 
 ![Budget vs actual page from the pack](docs/budget-vs-actual.png)
 
@@ -59,6 +59,25 @@ The P1 pack started from clean monthly figures. A real close starts from exports
 
 Full detail in [`docs/close_report.md`](docs/close_report.md).
 
+## P3: Rolling forecast and CFO memo
+
+### Problem
+
+The carrier's September price rise is permanent. What does the next 18 months look like, and what should the business do about delivery costs?
+
+### Approach
+
+- Built a driver-based forecast from February 2026 to July 2027. Sales are orders × average order value × returns by channel, rolled forward from the same month last year. Warehouse payroll is orders ÷ orders per hour × the National Living Wage (£12.71 from April 2026, from gov.uk), with productivity calibrated on FY26.
+- Three scenarios on one input sheet, switched by a dropdown. Every forecast cell is a live formula.
+- Costed three responses to the price rise against doing nothing: switch carrier, add a delivery charge on small orders, or raise prices 2%. Each one is shown in all three scenarios with a break-even point, so the case doesn't rest on guessing how customers will react.
+
+### Result
+
+- Base case FY27 operating profit is £2.8m, ranging from £0.3m in the downside to £4.5m in the upside. Cash stays above £4.4m throughout.
+- The memo recommends switching carrier now (an estimated £320k over 18 months, paying back by September 2026, and worth £640k in the downside), testing the price rise on the website first, and dropping the delivery charge, which roughly breaks even in every scenario.
+
+Read the memo: [`docs/cfo_memo.md`](docs/cfo_memo.md).
+
 ## What I'd change
 
 - Marketing spend is still a placeholder, because neither company discloses it. It's marked * in the pack and will move once I find a source.
@@ -66,6 +85,8 @@ Full detail in [`docs/close_report.md`](docs/close_report.md).
 - The monthly sales shape is my own estimate, scaled to match Frasers' half-year split, since Frasers doesn't publish monthly sales.
 - The ledger has no VAT or corporation tax, and sales arrive as daily totals rather than individual orders.
 - The checks are rules. On real data I'd add a supplier statement reconciliation, which would have caught both misses directly.
+- The forecast rolls each month forward from the same month last year, so FY26's one-offs (the weak website peak, January clearance) carry into FY27. A real forecast would normalise them first.
+- The option assumptions (the carrier quote, how many customers walk away) are company assumptions. The break-even points show how far they can be wrong before the answer changes.
 
 ## In this repo
 
@@ -73,6 +94,8 @@ Full detail in [`docs/close_report.md`](docs/close_report.md).
 |------|------------|
 | [`pack/DirectSportsGoods_FY26_management_pack.xlsx`](pack/DirectSportsGoods_FY26_management_pack.xlsx) | The management pack |
 | [`docs/close_report.md`](docs/close_report.md) | Month-end close results |
+| [`pack/DirectSportsGoods_forecast.xlsx`](pack/DirectSportsGoods_forecast.xlsx) | Rolling forecast, scenarios and options |
+| [`docs/cfo_memo.md`](docs/cfo_memo.md) | CFO memo on delivery costs |
 | [`docs/assumptions.md`](docs/assumptions.md) | Every benchmark and its source |
 | [`data/raw/`](data/raw/) | Raw exports the close starts from |
 | [`data/answer_key.csv`](data/answer_key.csv) | Every planted error and decoy |
@@ -84,4 +107,5 @@ To rebuild everything (needs Python and openpyxl):
 python src/build_pack.py
 python src/generate.py
 python src/close.py
+python src/forecast.py
 ```
